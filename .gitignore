@@ -101,14 +101,8 @@ fabric.properties
 /.remotes
 
 /private/*
-!/private/typo3conf
-/private/typo3conf/*
-!/private/typo3conf/l10n
-!/private/typo3conf/LocalConfiguration.php
 
-/public
-/public/typo3conf/ext/*
-!/public/typo3conf/ext/
+/public/*
 
 /Resources/Private/Backup/
 /Tests/
