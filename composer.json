@@ -1,0 +1,79 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.typo3.org/"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/resterland/rlwebshop.git"
+        }
+    ],
+
+    "name": "resterland/rlwebshop",
+    "type": "typo3-cms-extension",
+    "description": "This extension extends the Aimeos or cart webshop extension. I still don't know which one I will use.",
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "bootstrap",
+        "responsive",
+        "webshop"
+    ],
+    "homepage": "https://resterland.ch",
+    "authors": [
+        {
+            "name": "Roland Fuhrer",
+            "email": "roland@resterland.ch",
+            "homepage": "https://resterland.ch",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "helhum/typo3-config-handling": "^1.0",
+        "helhum/typo3-secure-web": "^0.2",
+        "helhum/typo3-console": "^6.3",
+        "typo3/cms-core": "^10.4",
+        "resterland/webatelier": "^4",
+        "causal/image_autoresize": "^2.0",
+        "bk2k/bootstrap-package": "^10.0 || ^11.0",
+        "resterland/resterland": "^4"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "friendsofphp/php-cs-fixer": "^2",
+        "typo3/testing-framework": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Resterland\\Rlwebshop\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Resterland\\Rlwebshop\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "resterland/rlwebshop": "self.version",
+        "typo3-ter/rlwebshop": "self.version"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        },
+        "optimize-autoloader": true
+    },
+    "scripts": {
+        "set-version": [
+            "Resterland\\Rlwebshop\\Composer\\VersionScript::setVersion"
+        ]
+    },
+    "extra": {
+        "typo3/cms": {
+            "root-dir": "private",
+            "web-dir": "public"
+        }
+    }
+}
