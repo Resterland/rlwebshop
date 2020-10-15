@@ -5,7 +5,7 @@
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'ResterLand WebShop',
-    'description' => 'Aimeos TYPO3 extension for rlwebshop project.',
+    'description' => 'his extension extends the Aimeos e-commerce extension.',
     'category' => 'plugin',
     'constraints' => [
         'depends' => [

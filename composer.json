@@ -12,7 +12,7 @@
 
     "name": "resterland/rlwebshop",
     "type": "typo3-cms-extension",
-    "description": "This extension extends the Aimeos or cart webshop extension. I still don't know which one I will use.",
+    "description": "This extension extends the Aimeos e-commerce extension.",
     "license": "GPL-2.0-or-later",
     "keywords": [
         "TYPO3",
