@@ -5,22 +5,17 @@
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'ResterLand WebShop',
-    'description' => 'This extension extends the Aimeos or cart webshop extension. I still don\'t know which one I will use.',
-    'category' => 'extension',
+    'description' => 'Aimeos TYPO3 extension for rlwebshop project.',
+    'category' => 'plugin',
     'constraints' => [
         'depends' => [
             'typo3' => '10.4.0-10.9.99',
-            'bootstrap_package' => '11.0.0-11.9.99'
+            'aimeos' => '20.4.0-20.99.99'
         ],
         'conflicts' => [],
         'suggests' => [],
     ],
-    'autoload' => [
-        'psr-4' => [
-            'Resterland\\Rlwebshop\\' => 'Classes'
-        ],
-    ],
-    'state' => 'alpha',
+    'state' => 'beta',
     'version' => '1.0.0',
     'uploadfolder' => 0,
     'createDirs' => '',

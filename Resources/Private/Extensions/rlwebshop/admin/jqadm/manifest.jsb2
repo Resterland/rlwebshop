@@ -1,0 +1,29 @@
+{
+  "projectName": "rlwebshop",
+  "licenseText": "proprietary",
+  "pkgs": [
+    {
+      "name": "rlwebshop CSS",
+      "file": "rlwebshop.css",
+      "isDebug": true,
+      "fileIncludes": [
+        {
+          "text": "custom.css",
+          "path": "themes/"
+        }
+      ]
+    },
+    {
+      "name": "rlwebshop JS",
+      "file": "rlwebshop.js",
+      "isDebug": true,
+      "fileIncludes": [
+        {
+          "text": "custom.js",
+          "path": "themes/"
+        }
+      ]
+    }
+  ],
+  "resources": []
+}
