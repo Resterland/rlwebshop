@@ -5,7 +5,7 @@
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'ResterLand WebShop',
-    'description' => 'his extension extends the Aimeos webshop extension.',
+    'description' => 'This extension is based on the sophisticated Aimeos web shop extension.',
     'category' => 'plugin',
     'constraints' => [
         'depends' => [
@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = [
         'suggests' => [],
     ],
     'state' => 'beta',
-    'version' => '1.1.0',
+    'version' => '2.0.0',
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 1,
