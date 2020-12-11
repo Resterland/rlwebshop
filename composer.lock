@@ -4,666 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a9f14be029e305756c20caed3702c86",
+    "content-hash": "fd44960dd422dc722b0ca024c26edae2",
     "packages": [
-        {
-            "name": "aimeos/ai-admin-jqadm",
-            "version": "2020.10.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-admin-jqadm.git",
-                "reference": "f24797475fee932b56c2830776f3cdc9c9319e13"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-admin-jqadm/zipball/f24797475fee932b56c2830776f3cdc9c9319e13",
-                "reference": "f24797475fee932b56c2830776f3cdc9c9319e13",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "2020.10.*",
-                "composer/installers": "^1.0",
-                "php": "~7.1"
-            },
-            "require-dev": {
-                "nyholm/psr7-server": "^0.4.1",
-                "phpunit/phpunit": "~7.0||~8.0"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Admin\\JQAdm\\": "admin/jqadm/src/Admin/JQAdm/",
-                    "Aimeos\\MW\\": "lib/custom/src/MW"
-                },
-                "classmap": [
-                    "admin/jqadm/src",
-                    "lib/custom/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos Vue.js+Bootstrap admin interface",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "Vue.js",
-                "admin",
-                "aimeos",
-                "bootstrap",
-                "extension"
-            ],
-            "time": "2020-11-18T10:24:22+00:00"
-        },
-        {
-            "name": "aimeos/ai-admin-jsonadm",
-            "version": "2020.10.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-admin-jsonadm.git",
-                "reference": "d23a7628db46e3e75a61beb67c57483bdf3bf5f3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-admin-jsonadm/zipball/d23a7628db46e3e75a61beb67c57483bdf3bf5f3",
-                "reference": "d23a7628db46e3e75a61beb67c57483bdf3bf5f3",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "2020.10.*",
-                "composer/installers": "^1.0",
-                "php": "~7.1"
-            },
-            "require-dev": {
-                "nyholm/psr7-server": "^0.4.1",
-                "phpunit/phpunit": "~7.0||~8.0"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Admin\\Jsonadm\\": "admin/jsonadm/src/Admin/Jsonadm/"
-                },
-                "classmap": [
-                    "admin/jsonadm/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos ai-admin-jsonadm extension",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "admin",
-                "aimeos",
-                "extension",
-                "json api"
-            ],
-            "time": "2020-10-06T07:52:36+00:00"
-        },
-        {
-            "name": "aimeos/ai-client-html",
-            "version": "2020.10.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-client-html.git",
-                "reference": "94876e32f07d458f71edf01528ebfbfc54fd2824"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-client-html/zipball/94876e32f07d458f71edf01528ebfbfc54fd2824",
-                "reference": "94876e32f07d458f71edf01528ebfbfc54fd2824",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/ai-controller-frontend": "2020.10.*",
-                "aimeos/ai-controller-jobs": "2020.10.*",
-                "aimeos/aimeos-core": "2020.10.*",
-                "composer/installers": "^1.0",
-                "php": "~7.1",
-                "tecnickcom/tcpdf": "~6.3"
-            },
-            "require-dev": {
-                "nyholm/psr7-server": "^0.4.1",
-                "phpunit/phpunit": "~7.0||~8.0"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Client\\Html\\": "client/html/src/Client/Html/",
-                    "Aimeos\\Controller\\Jobs\\": "controller/jobs/src/Controller/Jobs/",
-                    "Aimeos\\Controller\\Common\\": "controller/common/src/Controller/Common/"
-                },
-                "classmap": [
-                    "client/html/src",
-                    "controller/jobs/src",
-                    "controller/common/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos ai-client-html extension",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "aimeos",
-                "client",
-                "extension",
-                "html"
-            ],
-            "time": "2020-10-29T13:54:14+00:00"
-        },
-        {
-            "name": "aimeos/ai-client-jsonapi",
-            "version": "2020.10.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-client-jsonapi.git",
-                "reference": "eaaf78c2872a1d9506fb7078b6145839b5a5fd75"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-client-jsonapi/zipball/eaaf78c2872a1d9506fb7078b6145839b5a5fd75",
-                "reference": "eaaf78c2872a1d9506fb7078b6145839b5a5fd75",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/ai-controller-frontend": "2020.10.*",
-                "aimeos/aimeos-core": "2020.10.*",
-                "composer/installers": "^1.0",
-                "php": "~7.1"
-            },
-            "require-dev": {
-                "nyholm/psr7-server": "^0.4.1",
-                "phpunit/phpunit": "~7.0||~8.0"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Client\\JsonApi\\": "client/jsonapi/src/Client/JsonApi/",
-                    "Aimeos\\MW\\": "lib/custom/src/MW/"
-                },
-                "classmap": [
-                    "client/jsonapi/src",
-                    "lib/custom/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos JSON API extension",
-            "keywords": [
-                "aimeos",
-                "api",
-                "extension",
-                "json"
-            ],
-            "time": "2020-10-27T08:20:38+00:00"
-        },
-        {
-            "name": "aimeos/ai-controller-frontend",
-            "version": "2020.10.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-controller-frontend.git",
-                "reference": "d41937e7a127c1a160af692d715b78d42638f4a0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-controller-frontend/zipball/d41937e7a127c1a160af692d715b78d42638f4a0",
-                "reference": "d41937e7a127c1a160af692d715b78d42638f4a0",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "2020.10.*",
-                "composer/installers": "^1.0",
-                "php": "~7.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~7.0||~8.0"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Controller\\Frontend\\": "controller/frontend/src/Controller/Frontend/"
-                },
-                "classmap": [
-                    "controller/frontend/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos ai-controller-frontend extension",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "aimeos",
-                "controller",
-                "extension",
-                "frontend"
-            ],
-            "time": "2020-10-06T07:52:36+00:00"
-        },
-        {
-            "name": "aimeos/ai-controller-jobs",
-            "version": "2020.10.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-controller-jobs.git",
-                "reference": "17d540cb25add0ab8d4bdcd597f0920e7ca62465"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-controller-jobs/zipball/17d540cb25add0ab8d4bdcd597f0920e7ca62465",
-                "reference": "17d540cb25add0ab8d4bdcd597f0920e7ca62465",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "2020.10.*",
-                "composer/installers": "^1.0",
-                "php": "~7.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~7.0||~8.0"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\Controller\\Common\\": "controller/jobs/src/Controller/Common/",
-                    "Aimeos\\Controller\\Jobs\\": "controller/jobs/src/Controller/Jobs/"
-                },
-                "classmap": [
-                    "controller/common/src",
-                    "controller/jobs/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos ai-controller-jobs extension",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "aimeos",
-                "controller",
-                "extension",
-                "jobs"
-            ],
-            "time": "2020-11-16T12:54:22+00:00"
-        },
-        {
-            "name": "aimeos/ai-gettext",
-            "version": "2020.10.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-gettext.git",
-                "reference": "924915aba79131f39828a2131a5ebcb1c0b9e741"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-gettext/zipball/924915aba79131f39828a2131a5ebcb1c0b9e741",
-                "reference": "924915aba79131f39828a2131a5ebcb1c0b9e741",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "2020.10.*",
-                "composer/installers": "^1.0",
-                "php": "~7.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~7.0||~8.0"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\MW\\": "lib/mwlib/src/MW/"
-                },
-                "classmap": [
-                    "lib/custom/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Aimeos Gettext extension",
-            "homepage": "https://aimeos.org/",
-            "keywords": [
-                "aimeos",
-                "extension",
-                "gettext",
-                "performance"
-            ],
-            "time": "2020-10-06T07:52:36+00:00"
-        },
-        {
-            "name": "aimeos/ai-typo3",
-            "version": "2020.10.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/ai-typo3.git",
-                "reference": "91c0ea542ccbf4c9fdc32d5e453eeba76c72ef2d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-typo3/zipball/91c0ea542ccbf4c9fdc32d5e453eeba76c72ef2d",
-                "reference": "91c0ea542ccbf4c9fdc32d5e453eeba76c72ef2d",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/aimeos-core": "2020.10.*",
-                "composer/installers": "^1.0",
-                "nyholm/psr7": "~1.2",
-                "nyholm/psr7-server": "^0.4.1",
-                "php": "~7.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~7.0||~8.0",
-                "typo3/cms-core": "~9.5||~10.3",
-                "typo3/cms-extbase": "~9.5||~10.3"
-            },
-            "type": "aimeos-extension",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\MShop\\": "lib/custom/src/MShop",
-                    "Aimeos\\MW\\": "lib/custom/src/MW"
-                },
-                "classmap": [
-                    "lib/custom/src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "TYPO3 adapter for Aimeos web shops and e-commerce solutions",
-            "homepage": "https://aimeos.org/TYPO3",
-            "keywords": [
-                "adapter",
-                "aimeos",
-                "cms",
-                "e-commerce",
-                "shop",
-                "typo3"
-            ],
-            "time": "2020-10-28T07:13:55+00:00"
-        },
-        {
-            "name": "aimeos/aimeos-core",
-            "version": "2020.10.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/aimeos-core.git",
-                "reference": "1a26ec1152b124c3416395ca3e1e00fdae01c485"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/aimeos-core/zipball/1a26ec1152b124c3416395ca3e1e00fdae01c485",
-                "reference": "1a26ec1152b124c3416395ca3e1e00fdae01c485",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/map": "^1.6",
-                "doctrine/dbal": "~2.0",
-                "ext-curl": "*",
-                "ext-dom": "*",
-                "ext-fileinfo": "*",
-                "ext-gd": "*",
-                "ext-intl": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "ext-pcre": "*",
-                "ext-pdo": "*",
-                "ext-zip": "*",
-                "nyholm/psr7": "^1.2",
-                "php": "~7.1",
-                "psr/http-message": "~1.0",
-                "tecnickcom/tcpdf": "~6.3",
-                "voku/portable-ascii": "^1.4"
-            },
-            "require-dev": {
-                "phing/phing": "~2.4",
-                "php-coveralls/php-coveralls": "~2.0",
-                "phpunit/phpunit": "~7.0||~8.0",
-                "squizlabs/php_codesniffer": "~3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\MW\\": "lib/mwlib/src/MW/",
-                    "Aimeos\\MShop\\": "lib/mshoplib/src/MShop/",
-                    "Aimeos\\MAdmin\\": "lib/mshoplib/src/MAdmin/",
-                    "Aimeos\\Controller\\Common\\": "controller/common/src/Controller/Common/",
-                    "Aimeos\\Controller\\Jobs\\": "controller/common/src/Controller/Jobs/"
-                },
-                "classmap": [
-                    "lib/mwlib/src",
-                    "lib/mshoplib/src",
-                    "lib/mshoplib/setup",
-                    "controller/common/src",
-                    "controller/jobs/src",
-                    "Bootstrap.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Full-featured e-commerce components for high performance online shops",
-            "homepage": "https://aimeos.org",
-            "keywords": [
-                "B2C",
-                "b2b",
-                "ecommerce",
-                "gigacommerce",
-                "marketplace",
-                "portal",
-                "shop"
-            ],
-            "time": "2020-11-16T10:27:19+00:00"
-        },
-        {
-            "name": "aimeos/aimeos-typo3",
-            "version": "20.10.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/aimeos-typo3.git",
-                "reference": "3476fb5a3aba1135d138116010c7dab7c4501752"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/aimeos-typo3/zipball/3476fb5a3aba1135d138116010c7dab7c4501752",
-                "reference": "3476fb5a3aba1135d138116010c7dab7c4501752",
-                "shasum": ""
-            },
-            "require": {
-                "aimeos/ai-admin-jqadm": "2020.10.*",
-                "aimeos/ai-admin-jsonadm": "2020.10.*",
-                "aimeos/ai-client-html": "2020.10.*",
-                "aimeos/ai-client-jsonapi": "2020.10.*",
-                "aimeos/ai-gettext": "2020.10.*",
-                "aimeos/ai-typo3": "2020.10.*",
-                "aimeos/aimeos-core": "2020.10.*",
-                "bithost-gmbh/pdfviewhelpers": "^2.3.4",
-                "doctrine/dbal": "~2.5",
-                "nyholm/psr7": "~1.2",
-                "nyholm/psr7-server": "^0.4.1",
-                "php": ">=7.2.0",
-                "sjbr/static-info-tables": "^6.5",
-                "typo3/cms-backend": "~9.5||~10.4",
-                "typo3/cms-composer-installers": "~3.0",
-                "typo3/cms-core": "~9.5||~10.4",
-                "typo3/cms-extbase": "~9.5||~10.4",
-                "typo3/cms-scheduler": "~9.5||~10.4"
-            },
-            "replace": {
-                "aimeos/aimeos-typo3": "self.version",
-                "typo3-ter/aimeos": "self.version"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "installer-paths": {
-                    "Resources/Private/Extensions/{$name}/": [
-                        "type:aimeos-extension"
-                    ]
-                },
-                "typo3/cms": {
-                    "extension-key": "aimeos"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "Classes"
-                ],
-                "psr-4": {
-                    "Aimeos\\Aimeos\\": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "Professional, full-featured and high performance TYPO3 e-commerce extension for online shops and complex B2B projects",
-            "homepage": "https://www.aimeos.org",
-            "keywords": [
-                "aimeos",
-                "b2b",
-                "e-commerce",
-                "ecommerce",
-                "market place",
-                "portal",
-                "shop",
-                "typo3"
-            ],
-            "time": "2020-11-03T07:23:58+00:00"
-        },
-        {
-            "name": "aimeos/map",
-            "version": "1.9.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/map.git",
-                "reference": "527b458567b7216f0a3cdb33335d637a28df2f25"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/map/zipball/527b458567b7216f0a3cdb33335d637a28df2f25",
-                "reference": "527b458567b7216f0a3cdb33335d637a28df2f25",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1"
-            },
-            "require-dev": {
-                "php-coveralls/php-coveralls": "~2.0",
-                "phpunit/phpunit": "~7.0||~8.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\": "src/"
-                },
-                "files": [
-                    "src/function.php"
-                ],
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Easy and elegant handling of PHP arrays as array-like map objects similar to jQuery and Laravel Collections",
-            "keywords": [
-                "array",
-                "collection",
-                "map",
-                "php"
-            ],
-            "time": "2020-10-27T08:09:46+00:00"
-        },
-        {
-            "name": "bithost-gmbh/pdfviewhelpers",
-            "version": "v2.3.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bithost-gmbh/pdfviewhelpers.git",
-                "reference": "6095da7f38a74e3ab6fedc7224c2cd058aa9c37e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bithost-gmbh/pdfviewhelpers/zipball/6095da7f38a74e3ab6fedc7224c2cd058aa9c37e",
-                "reference": "6095da7f38a74e3ab6fedc7224c2cd058aa9c37e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0.0",
-                "typo3/cms-core": ">=8.7.0 <10.4.99"
-            },
-            "replace": {
-                "typo3-ter/pdfviewhelpers": "self.version"
-            },
-            "require-dev": {
-                "nimut/testing-framework": "^2.0 || ^3.0 || ^4.0 || ^5.0",
-                "php-coveralls/php-coveralls": "^2.1",
-                "smalot/pdfparser": "^0.12.0"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                },
-                "typo3/cms": {
-                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
-                    "web-dir": ".Build/Web"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Bithost\\Pdfviewhelpers\\": "Classes"
-                },
-                "classmap": [
-                    "Resources/Private/PHP/tcpdf/",
-                    "Resources/Private/PHP/fpdi/src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Markus Mächler",
-                    "email": "markus.maechler@bithost.ch"
-                },
-                {
-                    "name": "Esteban Gehring",
-                    "email": "esteban.gehring@bithost.ch"
-                }
-            ],
-            "description": "This is a TYPO3 CMS extension that provides various Fluid ViewHelpers to generate PDF documents.",
-            "homepage": "https://github.com/bithost-gmbh/pdfviewhelpers",
-            "keywords": [
-                "TCPDF",
-                "ViewHelpers",
-                "fluid",
-                "fpdi",
-                "generation",
-                "generator",
-                "pdf"
-            ],
-            "funding": [
-                {
-                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YGTVWHW8TP8Q4",
-                    "type": "custom"
-                }
-            ],
-            "time": "2020-06-25T07:53:05+00:00"
-        },
         {
             "name": "bk2k/bootstrap-package",
             "version": "11.0.2",
@@ -869,106 +211,6 @@
                 "text"
             ],
             "time": "2014-05-19T10:25:02+00:00"
-        },
-        {
-            "name": "composer/installers",
-            "version": "v1.0.24",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/composer/installers.git",
-                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
-                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0"
-            },
-            "replace": {
-                "roundcube/plugin-installer": "*",
-                "shama/baton": "*"
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "4.1.*"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Composer\\Installers\\Plugin",
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Composer\\Installers\\": "src/Composer/Installers"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kyle Robinson Young",
-                    "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama"
-                }
-            ],
-            "description": "A multi-framework Composer library installer",
-            "homepage": "https://composer.github.io/installers/",
-            "keywords": [
-                "Craft",
-                "Dolibarr",
-                "Hurad",
-                "ImageCMS",
-                "MODX Evo",
-                "Mautic",
-                "OXID",
-                "SMF",
-                "Thelia",
-                "WolfCMS",
-                "agl",
-                "aimeos",
-                "annotatecms",
-                "bitrix",
-                "cakephp",
-                "chef",
-                "codeigniter",
-                "concrete5",
-                "croogo",
-                "dokuwiki",
-                "drupal",
-                "elgg",
-                "fuelphp",
-                "grav",
-                "installer",
-                "joomla",
-                "kohana",
-                "laravel",
-                "lithium",
-                "magento",
-                "mako",
-                "mediawiki",
-                "modulework",
-                "moodle",
-                "phpbb",
-                "piwik",
-                "ppi",
-                "puppet",
-                "roundcube",
-                "shopware",
-                "silverstripe",
-                "symfony",
-                "typo3",
-                "wordpress",
-                "zend",
-                "zikula"
-            ],
-            "time": "2016-04-05T11:42:46+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -1540,6 +782,84 @@
             "time": "2020-11-14T15:56:27+00:00"
         },
         {
+            "name": "extcode/cart",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/extcode/cart.git",
+                "reference": "171322a0e5ae56b8bb2bec2a2706e431c2a8420e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/extcode/cart/zipball/171322a0e5ae56b8bb2bec2a2706e431c2a8420e",
+                "reference": "171322a0e5ae56b8bb2bec2a2706e431c2a8420e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-openssl": "*",
+                "php": ">=7.2.0 <7.5",
+                "typo3/cms-core": "^10.4",
+                "typo3/cms-form": "^10.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.14",
+                "helmich/typo3-typoscript-lint": "^2.0",
+                "overtrue/phplint": "^1.1",
+                "typo3/testing-framework": "^6.0"
+            },
+            "suggest": {
+                "typo3/cms-dashboard": "^10.4"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "cart",
+                    "app-dir": ".build",
+                    "web-dir": ".build/public"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Extcode\\Cart\\": "Classes/",
+                    "Extcode\\Cart\\Configuration\\": "Configuration/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Gohlke",
+                    "email": "ext.cart@extco.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Shopping Cart(s) for TYPO3",
+            "homepage": "https://cart.extco.de",
+            "keywords": [
+                "TYPO3 CMS",
+                "cart",
+                "shopping cart"
+            ],
+            "funding": [
+                {
+                    "url": "https://paypal.me/extcart",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/extcode",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/ext_cart",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-12-09T07:55:22+00:00"
+        },
+        {
             "name": "guzzlehttp/guzzle",
             "version": "6.5.5",
             "source": {
@@ -2064,16 +1384,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.10.2",
+            "version": "v4.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "658f1be311a230e0907f5dfe0213742aff0596de"
+                "reference": "dbe56d23de8fcb157bbc0cfb3ad7c7de0cfb0984"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/658f1be311a230e0907f5dfe0213742aff0596de",
-                "reference": "658f1be311a230e0907f5dfe0213742aff0596de",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/dbe56d23de8fcb157bbc0cfb3ad7c7de0cfb0984",
+                "reference": "dbe56d23de8fcb157bbc0cfb3ad7c7de0cfb0984",
                 "shasum": ""
             },
             "require": {
@@ -2112,192 +1432,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-09-26T10:30:38+00:00"
-        },
-        {
-            "name": "nyholm/psr7",
-            "version": "1.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Nyholm/psr7.git",
-                "reference": "a272953743c454ac4af9626634daaf5ab3ce1173"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Nyholm/psr7/zipball/a272953743c454ac4af9626634daaf5ab3ce1173",
-                "reference": "a272953743c454ac4af9626634daaf5ab3ce1173",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1",
-                "php-http/message-factory": "^1.0",
-                "psr/http-factory": "^1.0",
-                "psr/http-message": "^1.0"
-            },
-            "provide": {
-                "psr/http-factory-implementation": "1.0",
-                "psr/http-message-implementation": "1.0"
-            },
-            "require-dev": {
-                "http-interop/http-factory-tests": "^0.8",
-                "php-http/psr7-integration-tests": "^1.0",
-                "phpunit/phpunit": "^7.5 || 8.5 || 9.4",
-                "symfony/error-handler": "^4.4"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Nyholm\\Psr7\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tobias Nyholm",
-                    "email": "tobias.nyholm@gmail.com"
-                },
-                {
-                    "name": "Martijn van der Ven",
-                    "email": "martijn@vanderven.se"
-                }
-            ],
-            "description": "A fast PHP7 implementation of PSR-7",
-            "homepage": "https://tnyholm.se",
-            "keywords": [
-                "psr-17",
-                "psr-7"
-            ],
-            "funding": [
-                {
-                    "url": "https://github.com/Zegnat",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/nyholm",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-11-14T17:35:34+00:00"
-        },
-        {
-            "name": "nyholm/psr7-server",
-            "version": "0.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Nyholm/psr7-server.git",
-                "reference": "aab2962c970a1776447894e4fd3825a3d69dee61"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Nyholm/psr7-server/zipball/aab2962c970a1776447894e4fd3825a3d69dee61",
-                "reference": "aab2962c970a1776447894e4fd3825a3d69dee61",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1",
-                "psr/http-factory": "^1.0",
-                "psr/http-message": "^1.0"
-            },
-            "require-dev": {
-                "nyholm/nsa": "^1.1",
-                "nyholm/psr7": "^1.3",
-                "phpunit/phpunit": "^7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Nyholm\\Psr7Server\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tobias Nyholm",
-                    "email": "tobias.nyholm@gmail.com"
-                },
-                {
-                    "name": "Martijn van der Ven",
-                    "email": "martijn@vanderven.se"
-                }
-            ],
-            "description": "Helper classes to handle PSR-7 server requests",
-            "homepage": "http://tnyholm.se",
-            "keywords": [
-                "psr-17",
-                "psr-7"
-            ],
-            "funding": [
-                {
-                    "url": "https://github.com/Zegnat",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/nyholm",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-06-06T10:33:29+00:00"
-        },
-        {
-            "name": "php-http/message-factory",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-http/message-factory.git",
-                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-http/message-factory/zipball/a478cb11f66a6ac48d8954216cfed9aa06a501a1",
-                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4",
-                "psr/http-message": "^1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Http\\Message\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Márk Sági-Kazár",
-                    "email": "mark.sagikazar@gmail.com"
-                }
-            ],
-            "description": "Factory interfaces for PSR-7 HTTP Message",
-            "homepage": "http://php-http.org",
-            "keywords": [
-                "factory",
-                "http",
-                "message",
-                "stream",
-                "uri"
-            ],
-            "time": "2015-12-19T14:08:53+00:00"
+            "time": "2020-12-03T17:45:45+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -3156,73 +2291,30 @@
             "time": "2020-11-07T20:53:41+00:00"
         },
         {
-            "name": "sjbr/static-info-tables",
-            "version": "v6.9.3",
-            "source": {
-                "type": "git",
-                "url": "https://git.typo3.org/TYPO3CMS/Extensions/static_info_tables.git",
-                "reference": "0e3e30d1839751075099dcb896872de80e708481"
-            },
-            "require": {
-                "php": "^7.0",
-                "typo3/cms-core": ">=9.5, <11.0"
-            },
-            "replace": {
-                "typo3-ter/static-info-tables": "self.version"
-            },
-            "type": "typo3-cms-extension",
-            "autoload": {
-                "psr-4": {
-                    "SJBR\\StaticInfoTables\\": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Stanislas Rolland",
-                    "homepage": "https://www.sjbr.ca",
-                    "role": "Developer"
-                },
-                {
-                    "name": "René Fritz",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Data and API for countries, languages and currencies for use in TYPO3 CMS.",
-            "homepage": "https://forge.typo3.org/projects/extension-static_info_tables",
-            "keywords": [
-                "typo3"
-            ],
-            "time": "2020-10-20T02:07:26+00:00"
-        },
-        {
             "name": "symfony/cache",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "d7bc33e9f9028f49f87057e7944c076d9593f046"
+                "reference": "c15fd2b3dcf2bd7d5ee3265874870d6cc694306b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/d7bc33e9f9028f49f87057e7944c076d9593f046",
-                "reference": "d7bc33e9f9028f49f87057e7944c076d9593f046",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/c15fd2b3dcf2bd7d5ee3265874870d6cc694306b",
+                "reference": "c15fd2b3dcf2bd7d5ee3265874870d6cc694306b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
                 "psr/cache": "~1.0",
-                "psr/log": "~1.0",
+                "psr/log": "^1.1",
                 "symfony/cache-contracts": "^1.1.7|^2",
                 "symfony/polyfill-php80": "^1.15",
                 "symfony/service-contracts": "^1.1|^2",
                 "symfony/var-exporter": "^4.4|^5.0"
             },
             "conflict": {
-                "doctrine/dbal": "<2.5",
+                "doctrine/dbal": "<2.10",
                 "symfony/dependency-injection": "<4.4",
                 "symfony/http-kernel": "<4.4",
                 "symfony/var-dumper": "<4.4"
@@ -3235,12 +2327,14 @@
             "require-dev": {
                 "cache/integration-tests": "dev-master",
                 "doctrine/cache": "^1.6",
-                "doctrine/dbal": "^2.5|^3.0",
+                "doctrine/dbal": "^2.10|^3.0",
                 "predis/predis": "^1.1",
                 "psr/simple-cache": "^1.0",
                 "symfony/config": "^4.4|^5.0",
                 "symfony/dependency-injection": "^4.4|^5.0",
                 "symfony/filesystem": "^4.4|^5.0",
+                "symfony/http-kernel": "^4.4|^5.0",
+                "symfony/messenger": "^4.4|^5.0",
                 "symfony/var-dumper": "^4.4|^5.0"
             },
             "type": "library",
@@ -3286,7 +2380,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-25T23:21:56+00:00"
+            "time": "2020-11-21T09:39:55+00:00"
         },
         {
             "name": "symfony/cache-contracts",
@@ -3366,16 +2460,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "11baeefa4c179d6908655a7b6be728f62367c193"
+                "reference": "fa1219ecbf96bb5db59f2599cba0960a0d9c3aea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/11baeefa4c179d6908655a7b6be728f62367c193",
-                "reference": "11baeefa4c179d6908655a7b6be728f62367c193",
+                "url": "https://api.github.com/repos/symfony/config/zipball/fa1219ecbf96bb5db59f2599cba0960a0d9c3aea",
+                "reference": "fa1219ecbf96bb5db59f2599cba0960a0d9c3aea",
                 "shasum": ""
             },
             "require": {
@@ -3437,20 +2531,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-16T18:02:40+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "e0b2c29c0fa6a69089209bbe8fcff4df2a313d0e"
+                "reference": "3e0564fb08d44a98bd5f1960204c958e57bd586b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/e0b2c29c0fa6a69089209bbe8fcff4df2a313d0e",
-                "reference": "e0b2c29c0fa6a69089209bbe8fcff4df2a313d0e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/3e0564fb08d44a98bd5f1960204c958e57bd586b",
+                "reference": "3e0564fb08d44a98bd5f1960204c958e57bd586b",
                 "shasum": ""
             },
             "require": {
@@ -3511,6 +2605,12 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
+            "keywords": [
+                "cli",
+                "command line",
+                "console",
+                "terminal"
+            ],
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -3525,20 +2625,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-28T11:24:18+00:00"
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "829ca6bceaf68036a123a13a979f3c89289eae78"
+                "reference": "98cec9b9f410a4832e239949a41d47182862c3a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/829ca6bceaf68036a123a13a979f3c89289eae78",
-                "reference": "829ca6bceaf68036a123a13a979f3c89289eae78",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/98cec9b9f410a4832e239949a41d47182862c3a4",
+                "reference": "98cec9b9f410a4832e239949a41d47182862c3a4",
                 "shasum": ""
             },
             "require": {
@@ -3609,7 +2709,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-27T10:11:13+00:00"
+            "time": "2020-11-28T11:24:18+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -3677,16 +2777,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "26f4edae48c913fc183a3da0553fe63bdfbd361a"
+                "reference": "aa13a09811e6d2ad43f8fb336bebdb7691d85d3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/26f4edae48c913fc183a3da0553fe63bdfbd361a",
-                "reference": "26f4edae48c913fc183a3da0553fe63bdfbd361a",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/aa13a09811e6d2ad43f8fb336bebdb7691d85d3c",
+                "reference": "aa13a09811e6d2ad43f8fb336bebdb7691d85d3c",
                 "shasum": ""
             },
             "require": {
@@ -3755,7 +2855,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-01T16:14:45+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -3835,16 +2935,16 @@
         },
         {
             "name": "symfony/expression-language",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/expression-language.git",
-                "reference": "2c3f5e7cf4495d9033cc2d212da6ccde0d22b067"
+                "reference": "6fca724c3616e9fb49a06f183e33d886677fa0d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/expression-language/zipball/2c3f5e7cf4495d9033cc2d212da6ccde0d22b067",
-                "reference": "2c3f5e7cf4495d9033cc2d212da6ccde0d22b067",
+                "url": "https://api.github.com/repos/symfony/expression-language/zipball/6fca724c3616e9fb49a06f183e33d886677fa0d1",
+                "reference": "6fca724c3616e9fb49a06f183e33d886677fa0d1",
                 "shasum": ""
             },
             "require": {
@@ -3892,20 +2992,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-10-28T21:46:03+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "df08650ea7aee2d925380069c131a66124d79177"
+                "reference": "bb92ba7f38b037e531908590a858a04d85c0e238"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/df08650ea7aee2d925380069c131a66124d79177",
-                "reference": "df08650ea7aee2d925380069c131a66124d79177",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/bb92ba7f38b037e531908590a858a04d85c0e238",
+                "reference": "bb92ba7f38b037e531908590a858a04d85c0e238",
                 "shasum": ""
             },
             "require": {
@@ -3951,20 +3051,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-12T09:58:18+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "e70eb5a69c2ff61ea135a13d2266e8914a67b3a0"
+                "reference": "fd8305521692f27eae3263895d1ef1571c71a78d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/e70eb5a69c2ff61ea135a13d2266e8914a67b3a0",
-                "reference": "e70eb5a69c2ff61ea135a13d2266e8914a67b3a0",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/fd8305521692f27eae3263895d1ef1571c71a78d",
+                "reference": "fd8305521692f27eae3263895d1ef1571c71a78d",
                 "shasum": ""
             },
             "require": {
@@ -4009,20 +3109,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-18T09:42:36+00:00"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "a2860ec970404b0233ab1e59e0568d3277d32b6f"
+                "reference": "e4576271ee99123aa59a40564c7b5405f0ebd1e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/a2860ec970404b0233ab1e59e0568d3277d32b6f",
-                "reference": "a2860ec970404b0233ab1e59e0568d3277d32b6f",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/e4576271ee99123aa59a40564c7b5405f0ebd1e6",
+                "reference": "e4576271ee99123aa59a40564c7b5405f0ebd1e6",
                 "shasum": ""
             },
             "require": {
@@ -4079,20 +3179,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-27T06:13:25+00:00"
         },
         {
             "name": "symfony/intl",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/intl.git",
-                "reference": "e353c6c37afa1ff90739b3941f60ff9fa650eec3"
+                "reference": "eaac169bf64d307d48daef7e349729d670df6659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/intl/zipball/e353c6c37afa1ff90739b3941f60ff9fa650eec3",
-                "reference": "e353c6c37afa1ff90739b3941f60ff9fa650eec3",
+                "url": "https://api.github.com/repos/symfony/intl/zipball/eaac169bf64d307d48daef7e349729d670df6659",
+                "reference": "eaac169bf64d307d48daef7e349729d670df6659",
                 "shasum": ""
             },
             "require": {
@@ -4164,20 +3264,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-03T11:59:17+00:00"
         },
         {
             "name": "symfony/mailer",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mailer.git",
-                "reference": "fa5cc9f894a5d082e7e46bfdd44f5dd83529f0ba"
+                "reference": "f30fe13d4c9049f3c1f63be2c7f580779b058522"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mailer/zipball/fa5cc9f894a5d082e7e46bfdd44f5dd83529f0ba",
-                "reference": "fa5cc9f894a5d082e7e46bfdd44f5dd83529f0ba",
+                "url": "https://api.github.com/repos/symfony/mailer/zipball/f30fe13d4c9049f3c1f63be2c7f580779b058522",
+                "reference": "f30fe13d4c9049f3c1f63be2c7f580779b058522",
                 "shasum": ""
             },
             "require": {
@@ -4185,7 +3285,7 @@
                 "php": ">=7.2.5",
                 "psr/log": "~1.0",
                 "symfony/event-dispatcher": "^4.4|^5.0",
-                "symfony/mime": "^4.4|^5.0",
+                "symfony/mime": "^5.2",
                 "symfony/polyfill-php80": "^1.15",
                 "symfony/service-contracts": "^1.1|^2"
             },
@@ -4198,6 +3298,7 @@
                 "symfony/http-client-contracts": "^1.1|^2",
                 "symfony/mailchimp-mailer": "^4.4|^5.0",
                 "symfony/mailgun-mailer": "^4.4|^5.0",
+                "symfony/mailjet-mailer": "^4.4|^5.0",
                 "symfony/messenger": "^4.4|^5.0",
                 "symfony/postmark-mailer": "^4.4|^5.0",
                 "symfony/sendgrid-mailer": "^4.4|^5.0"
@@ -4241,24 +3342,25 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-10-28T21:46:03+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "f5485a92c24d4bcfc2f3fc648744fb398482ff1b"
+                "reference": "05f667e8fa029568964fd3bec6bc17765b853cc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/f5485a92c24d4bcfc2f3fc648744fb398482ff1b",
-                "reference": "f5485a92c24d4bcfc2f3fc648744fb398482ff1b",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/05f667e8fa029568964fd3bec6bc17765b853cc5",
+                "reference": "05f667e8fa029568964fd3bec6bc17765b853cc5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
                 "symfony/polyfill-intl-idn": "^1.10",
                 "symfony/polyfill-mbstring": "^1.0",
                 "symfony/polyfill-php80": "^1.15"
@@ -4268,7 +3370,11 @@
             },
             "require-dev": {
                 "egulias/email-validator": "^2.1.10",
-                "symfony/dependency-injection": "^4.4|^5.0"
+                "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
+                "symfony/dependency-injection": "^4.4|^5.0",
+                "symfony/property-access": "^4.4|^5.1",
+                "symfony/property-info": "^4.4|^5.1",
+                "symfony/serializer": "^5.2"
             },
             "type": "library",
             "autoload": {
@@ -4313,7 +3419,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-10-30T14:55:39+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -5018,16 +4124,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "f00872c3f6804150d6a0f73b4151daab96248101"
+                "reference": "240e74140d4d956265048f3025c0aecbbc302d54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/f00872c3f6804150d6a0f73b4151daab96248101",
-                "reference": "f00872c3f6804150d6a0f73b4151daab96248101",
+                "url": "https://api.github.com/repos/symfony/process/zipball/240e74140d4d956265048f3025c0aecbbc302d54",
+                "reference": "240e74140d4d956265048f3025c0aecbbc302d54",
                 "shasum": ""
             },
             "require": {
@@ -5073,26 +4179,27 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-02T15:47:15+00:00"
         },
         {
             "name": "symfony/property-access",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-access.git",
-                "reference": "5d77df9a88600797d02c7937c153965ba3537933"
+                "reference": "5cf86761edaf58376845a96ea6c0d28d475d5ad3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/property-access/zipball/5d77df9a88600797d02c7937c153965ba3537933",
-                "reference": "5d77df9a88600797d02c7937c153965ba3537933",
+                "url": "https://api.github.com/repos/symfony/property-access/zipball/5cf86761edaf58376845a96ea6c0d28d475d5ad3",
+                "reference": "5cf86761edaf58376845a96ea6c0d28d475d5ad3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
                 "symfony/polyfill-php80": "^1.15",
-                "symfony/property-info": "^5.1.1"
+                "symfony/property-info": "^5.2"
             },
             "require-dev": {
                 "symfony/cache": "^4.4|^5.0"
@@ -5150,24 +4257,25 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-01T16:14:45+00:00"
         },
         {
             "name": "symfony/property-info",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-info.git",
-                "reference": "fc15c51f829887b62a94a917ba793f51e80ea3e1"
+                "reference": "69ca096d096a0a58457818a5a2d1ce51f5f14909"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/property-info/zipball/fc15c51f829887b62a94a917ba793f51e80ea3e1",
-                "reference": "fc15c51f829887b62a94a917ba793f51e80ea3e1",
+                "url": "https://api.github.com/repos/symfony/property-info/zipball/69ca096d096a0a58457818a5a2d1ce51f5f14909",
+                "reference": "69ca096d096a0a58457818a5a2d1ce51f5f14909",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
                 "symfony/polyfill-php80": "^1.15",
                 "symfony/string": "^5.1"
             },
@@ -5236,20 +4344,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-10-28T21:46:03+00:00"
         },
         {
             "name": "symfony/routing",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "d6ceee2a37b61b41079005207bf37746d1bfe71f"
+                "reference": "130ac5175ad2fd417978baebd8062e2e6b2bc28b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/d6ceee2a37b61b41079005207bf37746d1bfe71f",
-                "reference": "d6ceee2a37b61b41079005207bf37746d1bfe71f",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/130ac5175ad2fd417978baebd8062e2e6b2bc28b",
+                "reference": "130ac5175ad2fd417978baebd8062e2e6b2bc28b",
                 "shasum": ""
             },
             "require": {
@@ -5263,7 +4371,7 @@
                 "symfony/yaml": "<4.4"
             },
             "require-dev": {
-                "doctrine/annotations": "~1.2",
+                "doctrine/annotations": "^1.7",
                 "psr/log": "~1.0",
                 "symfony/config": "^5.0",
                 "symfony/dependency-injection": "^4.4|^5.0",
@@ -5323,7 +4431,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-27T00:39:34+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -5403,16 +4511,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "a97573e960303db71be0dd8fda9be3bca5e0feea"
+                "reference": "40e975edadd4e32cd16f3753b3bad65d9ac48242"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/a97573e960303db71be0dd8fda9be3bca5e0feea",
-                "reference": "a97573e960303db71be0dd8fda9be3bca5e0feea",
+                "url": "https://api.github.com/repos/symfony/string/zipball/40e975edadd4e32cd16f3753b3bad65d9ac48242",
+                "reference": "40e975edadd4e32cd16f3753b3bad65d9ac48242",
                 "shasum": ""
             },
             "require": {
@@ -5479,20 +4587,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-10-24T12:08:07+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "4e13f3fcefb1fcaaa5efb5403581406f4e840b9a"
+                "reference": "173a79c462b1c81e1fa26129f71e41333d846b26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/4e13f3fcefb1fcaaa5efb5403581406f4e840b9a",
-                "reference": "4e13f3fcefb1fcaaa5efb5403581406f4e840b9a",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/173a79c462b1c81e1fa26129f71e41333d846b26",
+                "reference": "173a79c462b1c81e1fa26129f71e41333d846b26",
                 "shasum": ""
             },
             "require": {
@@ -5564,20 +4672,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-27T10:11:13+00:00"
+            "time": "2020-11-27T00:39:34+00:00"
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "b4048bfc6248413592462c029381bdb2f7b6525f"
+                "reference": "fbc3507f23d263d75417e09a12d77c009f39676c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/b4048bfc6248413592462c029381bdb2f7b6525f",
-                "reference": "b4048bfc6248413592462c029381bdb2f7b6525f",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/fbc3507f23d263d75417e09a12d77c009f39676c",
+                "reference": "fbc3507f23d263d75417e09a12d77c009f39676c",
                 "shasum": ""
             },
             "require": {
@@ -5634,20 +4742,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-10-28T21:31:18+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "f284e032c3cefefb9943792132251b79a6127ca6"
+                "reference": "bb73619b2ae5121bbbcd9f191dfd53ded17ae598"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/f284e032c3cefefb9943792132251b79a6127ca6",
-                "reference": "f284e032c3cefefb9943792132251b79a6127ca6",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/bb73619b2ae5121bbbcd9f191dfd53ded17ae598",
+                "reference": "bb73619b2ae5121bbbcd9f191dfd53ded17ae598",
                 "shasum": ""
             },
             "require": {
@@ -5706,69 +4814,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:03:25+00:00"
-        },
-        {
-            "name": "tecnickcom/tcpdf",
-            "version": "6.3.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/19a535eaa7fb1c1cac499109deeb1a7a201b4549",
-                "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "config",
-                    "include",
-                    "tcpdf.php",
-                    "tcpdf_parser.php",
-                    "tcpdf_import.php",
-                    "tcpdf_barcodes_1d.php",
-                    "tcpdf_barcodes_2d.php",
-                    "include/tcpdf_colors.php",
-                    "include/tcpdf_filters.php",
-                    "include/tcpdf_font_data.php",
-                    "include/tcpdf_fonts.php",
-                    "include/tcpdf_images.php",
-                    "include/tcpdf_static.php",
-                    "include/barcodes/datamatrix.php",
-                    "include/barcodes/pdf417.php",
-                    "include/barcodes/qrcode.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Nicola Asuni",
-                    "email": "info@tecnick.com",
-                    "role": "lead"
-                }
-            ],
-            "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
-            "homepage": "http://www.tcpdf.org/",
-            "keywords": [
-                "PDFD32000-2008",
-                "TCPDF",
-                "barcodes",
-                "datamatrix",
-                "pdf",
-                "pdf417",
-                "qrcode"
-            ],
-            "time": "2020-02-14T14:20:12+00:00"
+            "time": "2020-11-28T10:57:20+00:00"
         },
         {
             "name": "typo3/class-alias-loader",
@@ -7948,76 +6994,6 @@
             "time": "2020-11-16T21:38:14+00:00"
         },
         {
-            "name": "voku/portable-ascii",
-            "version": "1.5.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "80953678b19901e5165c56752d087fc11526017c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/80953678b19901e5165c56752d087fc11526017c",
-                "reference": "80953678b19901e5165c56752d087fc11526017c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
-            },
-            "suggest": {
-                "ext-intl": "Use Intl for transliterator_transliterate() support"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "voku\\": "src/voku/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Lars Moelleken",
-                    "homepage": "http://www.moelleken.org/"
-                }
-            ],
-            "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
-            "homepage": "https://github.com/voku/portable-ascii",
-            "keywords": [
-                "ascii",
-                "clean",
-                "php"
-            ],
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/moelleken",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/voku",
-                    "type": "github"
-                },
-                {
-                    "url": "https://opencollective.com/portable-ascii",
-                    "type": "open_collective"
-                },
-                {
-                    "url": "https://www.patreon.com/voku",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2020-11-12T00:07:28+00:00"
-        },
-        {
             "name": "webmozart/assert",
             "version": "1.9.1",
             "source": {
@@ -8204,16 +7180,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v2.16.7",
+            "version": "v2.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "4e35806a6d7d8510d6842ae932e8832363d22c87"
+                "reference": "5198b7308ed63f26799387fd7f3901c3db6bd7fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/4e35806a6d7d8510d6842ae932e8832363d22c87",
-                "reference": "4e35806a6d7d8510d6842ae932e8832363d22c87",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/5198b7308ed63f26799387fd7f3901c3db6bd7fd",
+                "reference": "5198b7308ed63f26799387fd7f3901c3db6bd7fd",
                 "shasum": ""
             },
             "require": {
@@ -8222,7 +7198,7 @@
                 "doctrine/annotations": "^1.2",
                 "ext-json": "*",
                 "ext-tokenizer": "*",
-                "php": "^7.1",
+                "php": "^5.6 || ^7.0 || ^8.0",
                 "php-cs-fixer/diff": "^1.3",
                 "symfony/console": "^3.4.43 || ^4.1.6 || ^5.0",
                 "symfony/event-dispatcher": "^3.0 || ^4.0 || ^5.0",
@@ -8244,6 +7220,7 @@
                 "php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.2",
                 "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.2.1",
                 "phpunit/phpunit": "^5.7.27 || ^6.5.14 || ^7.1",
+                "phpunitgoodpractices/polyfill": "^1.5",
                 "phpunitgoodpractices/traits": "^1.9.1",
                 "symfony/phpunit-bridge": "^5.1",
                 "symfony/yaml": "^3.0 || ^4.0 || ^5.0"
@@ -8297,7 +7274,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-27T22:44:27+00:00"
+            "time": "2020-12-08T13:47:02+00:00"
         },
         {
             "name": "mikey179/vfsstream",
@@ -8457,16 +7434,16 @@
         },
         {
             "name": "phar-io/version",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phar-io/version.git",
-                "reference": "c6bb6825def89e0a32220f88337f8ceaf1975fa0"
+                "reference": "726c026815142e4f8677b7cb7f2249c9ffb7ecae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phar-io/version/zipball/c6bb6825def89e0a32220f88337f8ceaf1975fa0",
-                "reference": "c6bb6825def89e0a32220f88337f8ceaf1975fa0",
+                "url": "https://api.github.com/repos/phar-io/version/zipball/726c026815142e4f8677b7cb7f2249c9ffb7ecae",
+                "reference": "726c026815142e4f8677b7cb7f2249c9ffb7ecae",
                 "shasum": ""
             },
             "require": {
@@ -8500,7 +7477,7 @@
                 }
             ],
             "description": "Library for handling version information and constraints",
-            "time": "2020-06-27T14:39:04+00:00"
+            "time": "2020-11-30T09:21:21+00:00"
         },
         {
             "name": "php-cs-fixer/diff",
@@ -8618,16 +7595,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.3",
+            "version": "9.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "6b20e2055f7c29b56cb3870b3de7cc463d7add41"
+                "reference": "f3e026641cc91909d421802dd3ac7827ebfd97e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6b20e2055f7c29b56cb3870b3de7cc463d7add41",
-                "reference": "6b20e2055f7c29b56cb3870b3de7cc463d7add41",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/f3e026641cc91909d421802dd3ac7827ebfd97e1",
+                "reference": "f3e026641cc91909d421802dd3ac7827ebfd97e1",
                 "shasum": ""
             },
             "require": {
@@ -8641,7 +7618,7 @@
                 "sebastian/code-unit-reverse-lookup": "^2.0.2",
                 "sebastian/complexity": "^2.0",
                 "sebastian/environment": "^5.1.2",
-                "sebastian/lines-of-code": "^1.0",
+                "sebastian/lines-of-code": "^1.0.3",
                 "sebastian/version": "^3.0.1",
                 "theseer/tokenizer": "^1.2.0"
             },
@@ -8687,7 +7664,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-30T10:46:41+00:00"
+            "time": "2020-11-28T06:44:49+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -8916,16 +7893,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.4.3",
+            "version": "9.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "9fa359ff5ddaa5eb2be2bedb08a6a5787a5807ab"
+                "reference": "8e16c225d57c3d6808014df6b1dd7598d0a5bbbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9fa359ff5ddaa5eb2be2bedb08a6a5787a5807ab",
-                "reference": "9fa359ff5ddaa5eb2be2bedb08a6a5787a5807ab",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8e16c225d57c3d6808014df6b1dd7598d0a5bbbe",
+                "reference": "8e16c225d57c3d6808014df6b1dd7598d0a5bbbe",
                 "shasum": ""
             },
             "require": {
@@ -8941,7 +7918,7 @@
                 "phar-io/version": "^3.0.2",
                 "php": ">=7.3",
                 "phpspec/prophecy": "^1.12.1",
-                "phpunit/php-code-coverage": "^9.2",
+                "phpunit/php-code-coverage": "^9.2.3",
                 "phpunit/php-file-iterator": "^3.0.5",
                 "phpunit/php-invoker": "^3.1.1",
                 "phpunit/php-text-template": "^2.0.3",
@@ -8972,7 +7949,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "9.4-dev"
+                    "dev-master": "9.5-dev"
                 }
             },
             "autoload": {
@@ -9011,7 +7988,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-10T12:53:30+00:00"
+            "time": "2020-12-04T05:05:53+00:00"
         },
         {
             "name": "roave/security-advisories",
@@ -9019,12 +7996,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "44d202bbcf2339adf2941bf629cecfde4f58c35d"
+                "reference": "d5961914bf7f90e81af509b81e51450bff419815"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/44d202bbcf2339adf2941bf629cecfde4f58c35d",
-                "reference": "44d202bbcf2339adf2941bf629cecfde4f58c35d",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/d5961914bf7f90e81af509b81e51450bff419815",
+                "reference": "d5961914bf7f90e81af509b81e51450bff419815",
                 "shasum": ""
             },
             "conflict": {
@@ -9054,7 +8031,7 @@
                 "composer/composer": "<=1-alpha.11",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/core": ">=2,<3.5.39",
-                "contao/core-bundle": "= 4.10.0|>=4,<4.4.52|>=4.5,<4.9.6",
+                "contao/core-bundle": ">=4,<4.4.52|>=4.5,<4.9.6|= 4.10.0",
                 "contao/listing-bundle": ">=4,<4.4.8",
                 "datadog/dd-trace": ">=0.30,<0.30.2",
                 "david-garcia/phpwhois": "<=4.3.1",
@@ -9076,6 +8053,7 @@
                 "enshrined/svg-sanitize": "<0.13.1",
                 "erusev/parsedown": "<1.7.2",
                 "ezsystems/demobundle": ">=5.4,<5.4.6.1",
+                "ezsystems/ez-support-tools": ">=2.2,<2.2.3",
                 "ezsystems/ezdemo-ls-extension": ">=5.4,<5.4.2.1",
                 "ezsystems/ezfind-ls": ">=5.3,<5.3.6.1|>=5.4,<5.4.11.1|>=2017.12,<2017.12.0.1",
                 "ezsystems/ezplatform": ">=1.7,<1.7.9.1|>=1.13,<1.13.5.1|>=2.5,<2.5.4",
@@ -9097,6 +8075,8 @@
                 "friendsoftypo3/mediace": ">=7.6.2,<7.6.5",
                 "fuel/core": "<1.8.1",
                 "getgrav/grav": "<1.7-beta.8",
+                "getkirby/cms": ">=3,<3.4.5",
+                "getkirby/panel": "<2.5.14",
                 "gos/web-socket-bundle": "<1.10.4|>=2,<2.6.1|>=3,<3.3",
                 "gree/jose": "<=2.2",
                 "gregwar/rst": "<1.0.3",
@@ -9132,8 +8112,8 @@
                 "nette/nette": ">=2,<2.0.19|>=2.1,<2.1.13",
                 "nystudio107/craft-seomatic": "<3.3",
                 "nzo/url-encryptor-bundle": ">=4,<4.3.2|>=5,<5.0.1",
-                "october/backend": ">=1.0.319,<1.0.467",
-                "october/cms": ">=1.0.319,<1.0.466",
+                "october/backend": ">=1.0.319,<1.0.470",
+                "october/cms": "= 1.0.469|>=1.0.319,<1.0.469",
                 "october/october": ">=1.0.319,<1.0.466",
                 "october/rain": ">=1.0.319,<1.0.468",
                 "onelogin/php-saml": "<2.10.4",
@@ -9146,8 +8126,9 @@
                 "padraic/humbug_get_contents": "<1.1.2",
                 "pagarme/pagarme-php": ">=0,<3",
                 "paragonie/random_compat": "<2",
+                "passbolt/passbolt_api": "<2.11",
                 "paypal/merchant-sdk-php": "<3.12",
-                "pear/archive_tar": "<1.4.4",
+                "pear/archive_tar": "<1.4.11",
                 "personnummer/personnummer": "<3.0.2",
                 "phpfastcache/phpfastcache": ">=5,<5.0.13",
                 "phpmailer/phpmailer": "<6.1.6",
@@ -9249,8 +8230,8 @@
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
                 "twig/twig": "<1.38|>=2,<2.7",
-                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.30|>=9,<9.5.20|>=10,<10.4.6",
-                "typo3/cms-core": ">=8,<8.7.30|>=9,<9.5.20|>=10,<10.4.6",
+                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.23|>=10,<10.4.10",
+                "typo3/cms-core": ">=8,<8.7.38|>=9,<9.5.23|>=10,<10.4.10",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
                 "typo3/phar-stream-wrapper": ">=1,<2.1.1|>=3,<3.1.1",
@@ -9324,7 +8305,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-20T09:02:03+00:00"
+            "time": "2020-12-08T15:02:56+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -9860,16 +8841,16 @@
         },
         {
             "name": "sebastian/lines-of-code",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/lines-of-code.git",
-                "reference": "acf76492a65401babcf5283296fa510782783a7a"
+                "reference": "c1c2e997aa3146983ed888ad08b15470a2e22ecc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/acf76492a65401babcf5283296fa510782783a7a",
-                "reference": "acf76492a65401babcf5283296fa510782783a7a",
+                "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/c1c2e997aa3146983ed888ad08b15470a2e22ecc",
+                "reference": "c1c2e997aa3146983ed888ad08b15470a2e22ecc",
                 "shasum": ""
             },
             "require": {
@@ -9909,7 +8890,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-26T17:03:56+00:00"
+            "time": "2020-11-28T06:42:11+00:00"
         },
         {
             "name": "sebastian/object-enumerator",
@@ -10228,21 +9209,22 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "c6a02905e4ffc7a1498e8ee019db2b477cd1cc02"
+                "reference": "87a2a4a766244e796dd9cb9d6f58c123358cd986"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/c6a02905e4ffc7a1498e8ee019db2b477cd1cc02",
-                "reference": "c6a02905e4ffc7a1498e8ee019db2b477cd1cc02",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/87a2a4a766244e796dd9cb9d6f58c123358cd986",
+                "reference": "87a2a4a766244e796dd9cb9d6f58c123358cd986",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
                 "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-php73": "~1.0",
                 "symfony/polyfill-php80": "^1.15"
             },
             "type": "library",
@@ -10289,7 +9271,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-10-24T12:08:07+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
@@ -10358,16 +9340,16 @@
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "3d9f57c89011f0266e6b1d469e5c0110513859d5"
+                "reference": "2b105c0354f39a63038a1d8bf776ee92852813af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/3d9f57c89011f0266e6b1d469e5c0110513859d5",
-                "reference": "3d9f57c89011f0266e6b1d469e5c0110513859d5",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/2b105c0354f39a63038a1d8bf776ee92852813af",
+                "reference": "2b105c0354f39a63038a1d8bf776ee92852813af",
                 "shasum": ""
             },
             "require": {
@@ -10413,7 +9395,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2020-11-01T16:14:45+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -10463,16 +9445,16 @@
         },
         {
             "name": "typo3/testing-framework",
-            "version": "6.4.7",
+            "version": "6.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/testing-framework.git",
-                "reference": "41caa7f30e4ce4ae310d80986a66d9c0b8177e2d"
+                "reference": "d62c872d048015a3faee0b7b909302b8d3e54930"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/testing-framework/zipball/41caa7f30e4ce4ae310d80986a66d9c0b8177e2d",
-                "reference": "41caa7f30e4ce4ae310d80986a66d9c0b8177e2d",
+                "url": "https://api.github.com/repos/TYPO3/testing-framework/zipball/d62c872d048015a3faee0b7b909302b8d3e54930",
+                "reference": "d62c872d048015a3faee0b7b909302b8d3e54930",
                 "shasum": ""
             },
             "require": {
@@ -10520,12 +9502,13 @@
                 "tests",
                 "typo3"
             ],
-            "time": "2020-11-11T11:43:53+00:00"
+            "time": "2020-12-01T12:00:59+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "extcode/cart": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
