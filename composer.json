@@ -51,8 +51,7 @@
             "Classes"
         ],
         "psr-4": {
-            "Resterland\\Rlwebshop\\": "Classes",
-            "Aimeos\\Aimeos\\": "Classes"
+            "Resterland\\Rlwebshop\\": "Classes"
         }
     },
     "autoload-dev": {
