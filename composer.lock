@@ -4,8 +4,666 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec4c9ba579434ae4b1394404239fd815",
+    "content-hash": "fc5adc05406ce7e5ee213f19df94f7cd",
     "packages": [
+        {
+            "name": "aimeos/ai-admin-jqadm",
+            "version": "2020.10.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-admin-jqadm.git",
+                "reference": "9fa11ede911a8ecbb524a840875c4cc7d0351d72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-admin-jqadm/zipball/9fa11ede911a8ecbb524a840875c4cc7d0351d72",
+                "reference": "9fa11ede911a8ecbb524a840875c4cc7d0351d72",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "2020.10.*",
+                "composer/installers": "^1.0",
+                "php": "~7.1"
+            },
+            "require-dev": {
+                "nyholm/psr7-server": "^0.4.1",
+                "phpunit/phpunit": "~7.0||~8.0"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Admin\\JQAdm\\": "admin/jqadm/src/Admin/JQAdm/",
+                    "Aimeos\\MW\\": "lib/custom/src/MW"
+                },
+                "classmap": [
+                    "admin/jqadm/src",
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "Aimeos Vue.js+Bootstrap admin interface",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "Vue.js",
+                "admin",
+                "aimeos",
+                "bootstrap",
+                "extension"
+            ],
+            "time": "2020-12-09T17:13:51+00:00"
+        },
+        {
+            "name": "aimeos/ai-admin-jsonadm",
+            "version": "2020.10.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-admin-jsonadm.git",
+                "reference": "b8f9326f34bc32f9619be54de7da0d1a98a733ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-admin-jsonadm/zipball/b8f9326f34bc32f9619be54de7da0d1a98a733ff",
+                "reference": "b8f9326f34bc32f9619be54de7da0d1a98a733ff",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "2020.10.*",
+                "composer/installers": "^1.0",
+                "php": "~7.1"
+            },
+            "require-dev": {
+                "nyholm/psr7-server": "^0.4.1",
+                "phpunit/phpunit": "~7.0||~8.0"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Admin\\Jsonadm\\": "admin/jsonadm/src/Admin/Jsonadm/"
+                },
+                "classmap": [
+                    "admin/jsonadm/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "Aimeos ai-admin-jsonadm extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "admin",
+                "aimeos",
+                "extension",
+                "json api"
+            ],
+            "time": "2020-12-09T17:24:42+00:00"
+        },
+        {
+            "name": "aimeos/ai-client-html",
+            "version": "2020.10.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-client-html.git",
+                "reference": "0890f510c819dbd25e9bc2e26afdd364c02baaa0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-client-html/zipball/0890f510c819dbd25e9bc2e26afdd364c02baaa0",
+                "reference": "0890f510c819dbd25e9bc2e26afdd364c02baaa0",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/ai-controller-frontend": "2020.10.*",
+                "aimeos/ai-controller-jobs": "2020.10.*",
+                "aimeos/aimeos-core": "2020.10.*",
+                "composer/installers": "^1.0",
+                "php": "~7.1",
+                "tecnickcom/tcpdf": "~6.3"
+            },
+            "require-dev": {
+                "nyholm/psr7-server": "^0.4.1",
+                "phpunit/phpunit": "~7.0||~8.0"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Client\\Html\\": "client/html/src/Client/Html/",
+                    "Aimeos\\Controller\\Jobs\\": "controller/jobs/src/Controller/Jobs/",
+                    "Aimeos\\Controller\\Common\\": "controller/common/src/Controller/Common/"
+                },
+                "classmap": [
+                    "client/html/src",
+                    "controller/jobs/src",
+                    "controller/common/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "Aimeos ai-client-html extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "aimeos",
+                "client",
+                "extension",
+                "html"
+            ],
+            "time": "2020-12-09T17:24:42+00:00"
+        },
+        {
+            "name": "aimeos/ai-client-jsonapi",
+            "version": "2020.10.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-client-jsonapi.git",
+                "reference": "35cad8e007c0dbed2bee417f812f1f6d8078c547"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-client-jsonapi/zipball/35cad8e007c0dbed2bee417f812f1f6d8078c547",
+                "reference": "35cad8e007c0dbed2bee417f812f1f6d8078c547",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/ai-controller-frontend": "2020.10.*",
+                "aimeos/aimeos-core": "2020.10.*",
+                "composer/installers": "^1.0",
+                "php": "~7.1"
+            },
+            "require-dev": {
+                "nyholm/psr7-server": "^0.4.1",
+                "phpunit/phpunit": "~7.0||~8.0"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Client\\JsonApi\\": "client/jsonapi/src/Client/JsonApi/",
+                    "Aimeos\\MW\\": "lib/custom/src/MW/"
+                },
+                "classmap": [
+                    "client/jsonapi/src",
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "Aimeos JSON API extension",
+            "keywords": [
+                "aimeos",
+                "api",
+                "extension",
+                "json"
+            ],
+            "time": "2020-12-09T17:24:42+00:00"
+        },
+        {
+            "name": "aimeos/ai-controller-frontend",
+            "version": "2020.10.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-controller-frontend.git",
+                "reference": "9a92a2bd2a83a50f0867db320b6c0cbcd4af058d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-controller-frontend/zipball/9a92a2bd2a83a50f0867db320b6c0cbcd4af058d",
+                "reference": "9a92a2bd2a83a50f0867db320b6c0cbcd4af058d",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "2020.10.*",
+                "composer/installers": "^1.0",
+                "php": "~7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~7.0||~8.0"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Controller\\Frontend\\": "controller/frontend/src/Controller/Frontend/"
+                },
+                "classmap": [
+                    "controller/frontend/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "Aimeos ai-controller-frontend extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "aimeos",
+                "controller",
+                "extension",
+                "frontend"
+            ],
+            "time": "2020-12-09T17:24:42+00:00"
+        },
+        {
+            "name": "aimeos/ai-controller-jobs",
+            "version": "2020.10.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-controller-jobs.git",
+                "reference": "a895c21be29167846e3e121e7ad87b8e653172f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-controller-jobs/zipball/a895c21be29167846e3e121e7ad87b8e653172f5",
+                "reference": "a895c21be29167846e3e121e7ad87b8e653172f5",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "2020.10.*",
+                "composer/installers": "^1.0",
+                "php": "~7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~7.0||~8.0"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Controller\\Common\\": "controller/jobs/src/Controller/Common/",
+                    "Aimeos\\Controller\\Jobs\\": "controller/jobs/src/Controller/Jobs/"
+                },
+                "classmap": [
+                    "controller/common/src",
+                    "controller/jobs/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "Aimeos ai-controller-jobs extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "aimeos",
+                "controller",
+                "extension",
+                "jobs"
+            ],
+            "time": "2020-12-09T17:24:42+00:00"
+        },
+        {
+            "name": "aimeos/ai-gettext",
+            "version": "2020.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-gettext.git",
+                "reference": "924915aba79131f39828a2131a5ebcb1c0b9e741"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-gettext/zipball/924915aba79131f39828a2131a5ebcb1c0b9e741",
+                "reference": "924915aba79131f39828a2131a5ebcb1c0b9e741",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "2020.10.*",
+                "composer/installers": "^1.0",
+                "php": "~7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~7.0||~8.0"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\MW\\": "lib/mwlib/src/MW/"
+                },
+                "classmap": [
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "Aimeos Gettext extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "aimeos",
+                "extension",
+                "gettext",
+                "performance"
+            ],
+            "time": "2020-10-06T07:52:36+00:00"
+        },
+        {
+            "name": "aimeos/ai-typo3",
+            "version": "2020.10.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-typo3.git",
+                "reference": "bc204a9a119a08bfb3c83a070e9bc89d3edd3d69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/ai-typo3/zipball/bc204a9a119a08bfb3c83a070e9bc89d3edd3d69",
+                "reference": "bc204a9a119a08bfb3c83a070e9bc89d3edd3d69",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "2020.10.*",
+                "composer/installers": "^1.0",
+                "nyholm/psr7": "~1.2",
+                "nyholm/psr7-server": "^0.4.1",
+                "php": "~7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~7.0||~8.0",
+                "typo3/cms-core": "~9.5||~10.3",
+                "typo3/cms-extbase": "~9.5||~10.3"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\MShop\\": "lib/custom/src/MShop",
+                    "Aimeos\\MW\\": "lib/custom/src/MW"
+                },
+                "classmap": [
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "TYPO3 adapter for Aimeos web shops and e-commerce solutions",
+            "homepage": "https://aimeos.org/TYPO3",
+            "keywords": [
+                "adapter",
+                "aimeos",
+                "cms",
+                "e-commerce",
+                "shop",
+                "typo3"
+            ],
+            "time": "2020-12-11T11:37:35+00:00"
+        },
+        {
+            "name": "aimeos/aimeos-core",
+            "version": "2020.10.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/aimeos-core.git",
+                "reference": "81412fd0c0cfae11b84dc0f94e6b8f828b060769"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/aimeos-core/zipball/81412fd0c0cfae11b84dc0f94e6b8f828b060769",
+                "reference": "81412fd0c0cfae11b84dc0f94e6b8f828b060769",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/map": "^1.6",
+                "doctrine/dbal": "~2.0",
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-fileinfo": "*",
+                "ext-gd": "*",
+                "ext-intl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-pcre": "*",
+                "ext-pdo": "*",
+                "ext-zip": "*",
+                "nyholm/psr7": "^1.2",
+                "php": "~7.1",
+                "psr/http-message": "~1.0",
+                "tecnickcom/tcpdf": "~6.3",
+                "voku/portable-ascii": "^1.4"
+            },
+            "require-dev": {
+                "phing/phing": "~2.4",
+                "php-coveralls/php-coveralls": "~2.0",
+                "phpunit/phpunit": "~7.0||~8.0",
+                "squizlabs/php_codesniffer": "~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\MW\\": "lib/mwlib/src/MW/",
+                    "Aimeos\\MShop\\": "lib/mshoplib/src/MShop/",
+                    "Aimeos\\MAdmin\\": "lib/mshoplib/src/MAdmin/",
+                    "Aimeos\\Controller\\Common\\": "controller/common/src/Controller/Common/",
+                    "Aimeos\\Controller\\Jobs\\": "controller/common/src/Controller/Jobs/"
+                },
+                "classmap": [
+                    "lib/mwlib/src",
+                    "lib/mshoplib/src",
+                    "lib/mshoplib/setup",
+                    "controller/common/src",
+                    "controller/jobs/src",
+                    "Bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "Full-featured e-commerce components for high performance online shops",
+            "homepage": "https://aimeos.org",
+            "keywords": [
+                "B2C",
+                "b2b",
+                "ecommerce",
+                "gigacommerce",
+                "marketplace",
+                "portal",
+                "shop"
+            ],
+            "time": "2020-12-09T17:21:29+00:00"
+        },
+        {
+            "name": "aimeos/aimeos-typo3",
+            "version": "20.10.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/aimeos-typo3.git",
+                "reference": "ee3b71e0587cfc8dbc70434353c7215d0f99f83b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/aimeos-typo3/zipball/ee3b71e0587cfc8dbc70434353c7215d0f99f83b",
+                "reference": "ee3b71e0587cfc8dbc70434353c7215d0f99f83b",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/ai-admin-jqadm": "2020.10.*",
+                "aimeos/ai-admin-jsonadm": "2020.10.*",
+                "aimeos/ai-client-html": "2020.10.*",
+                "aimeos/ai-client-jsonapi": "2020.10.*",
+                "aimeos/ai-gettext": "2020.10.*",
+                "aimeos/ai-typo3": "2020.10.*",
+                "aimeos/aimeos-core": "2020.10.*",
+                "bithost-gmbh/pdfviewhelpers": "^2.3.4",
+                "doctrine/dbal": "~2.5",
+                "nyholm/psr7": "~1.2",
+                "nyholm/psr7-server": "^0.4.1",
+                "php": ">=7.2.0",
+                "sjbr/static-info-tables": "^6.5",
+                "typo3/cms-backend": "~9.5||~10.4",
+                "typo3/cms-composer-installers": "~3.0",
+                "typo3/cms-core": "~9.5||~10.4",
+                "typo3/cms-extbase": "~9.5||~10.4",
+                "typo3/cms-scheduler": "~9.5||~10.4"
+            },
+            "replace": {
+                "aimeos/aimeos-typo3": "self.version",
+                "typo3-ter/aimeos": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "installer-paths": {
+                    "Resources/Private/Extensions/{$name}/": [
+                        "type:aimeos-extension"
+                    ]
+                },
+                "typo3/cms": {
+                    "extension-key": "aimeos"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "Classes"
+                ],
+                "psr-4": {
+                    "Aimeos\\Aimeos\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "Professional, full-featured and high performance TYPO3 e-commerce extension for online shops and complex B2B projects",
+            "homepage": "https://www.aimeos.org",
+            "keywords": [
+                "aimeos",
+                "b2b",
+                "e-commerce",
+                "ecommerce",
+                "market place",
+                "portal",
+                "shop",
+                "typo3"
+            ],
+            "time": "2020-12-09T22:12:44+00:00"
+        },
+        {
+            "name": "aimeos/map",
+            "version": "1.10.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/map.git",
+                "reference": "c82f4e6cb68f6aaefedb9ee8843956f25020bb92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aimeos/map/zipball/c82f4e6cb68f6aaefedb9ee8843956f25020bb92",
+                "reference": "c82f4e6cb68f6aaefedb9ee8843956f25020bb92",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1||^8.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "~2.0",
+                "phpunit/phpunit": "~7.0||~8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\": "src/"
+                },
+                "files": [
+                    "src/function.php"
+                ],
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Easy and elegant handling of PHP arrays as array-like map objects similar to jQuery and Laravel Collections",
+            "keywords": [
+                "array",
+                "collection",
+                "map",
+                "php"
+            ],
+            "time": "2020-11-28T17:27:25+00:00"
+        },
+        {
+            "name": "bithost-gmbh/pdfviewhelpers",
+            "version": "v2.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bithost-gmbh/pdfviewhelpers.git",
+                "reference": "6095da7f38a74e3ab6fedc7224c2cd058aa9c37e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bithost-gmbh/pdfviewhelpers/zipball/6095da7f38a74e3ab6fedc7224c2cd058aa9c37e",
+                "reference": "6095da7f38a74e3ab6fedc7224c2cd058aa9c37e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "typo3/cms-core": ">=8.7.0 <10.4.99"
+            },
+            "replace": {
+                "typo3-ter/pdfviewhelpers": "self.version"
+            },
+            "require-dev": {
+                "nimut/testing-framework": "^2.0 || ^3.0 || ^4.0 || ^5.0",
+                "php-coveralls/php-coveralls": "^2.1",
+                "smalot/pdfparser": "^0.12.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "typo3/cms": {
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".Build/Web"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bithost\\Pdfviewhelpers\\": "Classes"
+                },
+                "classmap": [
+                    "Resources/Private/PHP/tcpdf/",
+                    "Resources/Private/PHP/fpdi/src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Markus Mächler",
+                    "email": "markus.maechler@bithost.ch"
+                },
+                {
+                    "name": "Esteban Gehring",
+                    "email": "esteban.gehring@bithost.ch"
+                }
+            ],
+            "description": "This is a TYPO3 CMS extension that provides various Fluid ViewHelpers to generate PDF documents.",
+            "homepage": "https://github.com/bithost-gmbh/pdfviewhelpers",
+            "keywords": [
+                "TCPDF",
+                "ViewHelpers",
+                "fluid",
+                "fpdi",
+                "generation",
+                "generator",
+                "pdf"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YGTVWHW8TP8Q4",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-06-25T07:53:05+00:00"
+        },
         {
             "name": "bk2k/bootstrap-package",
             "version": "11.0.2",
@@ -211,6 +869,106 @@
                 "text"
             ],
             "time": "2014-05-19T10:25:02+00:00"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.0.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "ImageCMS",
+                "MODX Evo",
+                "Mautic",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2016-04-05T11:42:46+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -1357,6 +2115,191 @@
             "time": "2020-12-03T17:45:45+00:00"
         },
         {
+            "name": "nyholm/psr7",
+            "version": "1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nyholm/psr7.git",
+                "reference": "a272953743c454ac4af9626634daaf5ab3ce1173"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nyholm/psr7/zipball/a272953743c454ac4af9626634daaf5ab3ce1173",
+                "reference": "a272953743c454ac4af9626634daaf5ab3ce1173",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "php-http/message-factory": "^1.0",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "provide": {
+                "psr/http-factory-implementation": "1.0",
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "http-interop/http-factory-tests": "^0.8",
+                "php-http/psr7-integration-tests": "^1.0",
+                "phpunit/phpunit": "^7.5 || 8.5 || 9.4",
+                "symfony/error-handler": "^4.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nyholm\\Psr7\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com"
+                },
+                {
+                    "name": "Martijn van der Ven",
+                    "email": "martijn@vanderven.se"
+                }
+            ],
+            "description": "A fast PHP7 implementation of PSR-7",
+            "homepage": "https://tnyholm.se",
+            "keywords": [
+                "psr-17",
+                "psr-7"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/Zegnat",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nyholm",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-11-14T17:35:34+00:00"
+        },
+        {
+            "name": "nyholm/psr7-server",
+            "version": "0.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nyholm/psr7-server.git",
+                "reference": "aab2962c970a1776447894e4fd3825a3d69dee61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nyholm/psr7-server/zipball/aab2962c970a1776447894e4fd3825a3d69dee61",
+                "reference": "aab2962c970a1776447894e4fd3825a3d69dee61",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "nyholm/nsa": "^1.1",
+                "nyholm/psr7": "^1.3",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nyholm\\Psr7Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com"
+                },
+                {
+                    "name": "Martijn van der Ven",
+                    "email": "martijn@vanderven.se"
+                }
+            ],
+            "description": "Helper classes to handle PSR-7 server requests",
+            "homepage": "http://tnyholm.se",
+            "keywords": [
+                "psr-17",
+                "psr-7"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/Zegnat",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nyholm",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-06-06T10:33:29+00:00"
+        },
+        {
+            "name": "php-http/message-factory",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-http/message-factory.git",
+                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-http/message-factory/zipball/a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com"
+                }
+            ],
+            "description": "Factory interfaces for PSR-7 HTTP Message",
+            "homepage": "http://php-http.org",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "stream",
+                "uri"
+            ],
+            "time": "2015-12-19T14:08:53+00:00"
+        },
+        {
             "name": "phpdocumentor/reflection-common",
             "version": "2.2.0",
             "source": {
@@ -2211,6 +3154,49 @@
                 "stylesheet"
             ],
             "time": "2020-11-07T20:53:41+00:00"
+        },
+        {
+            "name": "sjbr/static-info-tables",
+            "version": "v6.9.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.typo3.org/TYPO3CMS/Extensions/static_info_tables.git",
+                "reference": "ff98c81ca14175a077004fbbaa2c7bcbfda9f45b"
+            },
+            "require": {
+                "php": "^7.0",
+                "typo3/cms-core": ">=9.5, <11.0"
+            },
+            "replace": {
+                "typo3-ter/static-info-tables": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "SJBR\\StaticInfoTables\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Stanislas Rolland",
+                    "homepage": "https://www.sjbr.ca",
+                    "role": "Developer"
+                },
+                {
+                    "name": "René Fritz",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Data and API for countries, languages and currencies for use in TYPO3 CMS.",
+            "homepage": "https://forge.typo3.org/projects/extension-static_info_tables",
+            "keywords": [
+                "typo3"
+            ],
+            "time": "2020-11-21T19:09:05+00:00"
         },
         {
             "name": "symfony/cache",
@@ -4739,6 +5725,68 @@
             "time": "2020-11-28T10:57:20+00:00"
         },
         {
+            "name": "tecnickcom/tcpdf",
+            "version": "6.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tecnickcom/TCPDF.git",
+                "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/19a535eaa7fb1c1cac499109deeb1a7a201b4549",
+                "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "config",
+                    "include",
+                    "tcpdf.php",
+                    "tcpdf_parser.php",
+                    "tcpdf_import.php",
+                    "tcpdf_barcodes_1d.php",
+                    "tcpdf_barcodes_2d.php",
+                    "include/tcpdf_colors.php",
+                    "include/tcpdf_filters.php",
+                    "include/tcpdf_font_data.php",
+                    "include/tcpdf_fonts.php",
+                    "include/tcpdf_images.php",
+                    "include/tcpdf_static.php",
+                    "include/barcodes/datamatrix.php",
+                    "include/barcodes/pdf417.php",
+                    "include/barcodes/qrcode.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Nicola Asuni",
+                    "email": "info@tecnick.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
+            "homepage": "http://www.tcpdf.org/",
+            "keywords": [
+                "PDFD32000-2008",
+                "TCPDF",
+                "barcodes",
+                "datamatrix",
+                "pdf",
+                "pdf417",
+                "qrcode"
+            ],
+            "time": "2020-02-14T14:20:12+00:00"
+        },
+        {
             "name": "typo3/class-alias-loader",
             "version": "v1.1.3",
             "source": {
@@ -6914,6 +7962,76 @@
             ],
             "description": "The TYPO3 Fluid template rendering engine",
             "time": "2020-11-16T21:38:14+00:00"
+        },
+        {
+            "name": "voku/portable-ascii",
+            "version": "1.5.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voku/portable-ascii.git",
+                "reference": "80953678b19901e5165c56752d087fc11526017c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/80953678b19901e5165c56752d087fc11526017c",
+                "reference": "80953678b19901e5165c56752d087fc11526017c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+            },
+            "suggest": {
+                "ext-intl": "Use Intl for transliterator_transliterate() support"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "voku\\": "src/voku/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lars Moelleken",
+                    "homepage": "http://www.moelleken.org/"
+                }
+            ],
+            "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
+            "homepage": "https://github.com/voku/portable-ascii",
+            "keywords": [
+                "ascii",
+                "clean",
+                "php"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/moelleken",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/voku",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/portable-ascii",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://www.patreon.com/voku",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-11-12T00:07:28+00:00"
         },
         {
             "name": "webmozart/assert",
