@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd44960dd422dc722b0ca024c26edae2",
+    "content-hash": "ec4c9ba579434ae4b1394404239fd815",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -780,84 +780,6 @@
                 }
             ],
             "time": "2020-11-14T15:56:27+00:00"
-        },
-        {
-            "name": "extcode/cart",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/extcode/cart.git",
-                "reference": "171322a0e5ae56b8bb2bec2a2706e431c2a8420e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/extcode/cart/zipball/171322a0e5ae56b8bb2bec2a2706e431c2a8420e",
-                "reference": "171322a0e5ae56b8bb2bec2a2706e431c2a8420e",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "ext-openssl": "*",
-                "php": ">=7.2.0 <7.5",
-                "typo3/cms-core": "^10.4",
-                "typo3/cms-form": "^10.4"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.14",
-                "helmich/typo3-typoscript-lint": "^2.0",
-                "overtrue/phplint": "^1.1",
-                "typo3/testing-framework": "^6.0"
-            },
-            "suggest": {
-                "typo3/cms-dashboard": "^10.4"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "extension-key": "cart",
-                    "app-dir": ".build",
-                    "web-dir": ".build/public"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Extcode\\Cart\\": "Classes/",
-                    "Extcode\\Cart\\Configuration\\": "Configuration/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Daniel Gohlke",
-                    "email": "ext.cart@extco.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Shopping Cart(s) for TYPO3",
-            "homepage": "https://cart.extco.de",
-            "keywords": [
-                "TYPO3 CMS",
-                "cart",
-                "shopping cart"
-            ],
-            "funding": [
-                {
-                    "url": "https://paypal.me/extcart",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/extcode",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/ext_cart",
-                    "type": "patreon"
-                }
-            ],
-            "time": "2020-12-09T07:55:22+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -9508,7 +9430,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "extcode/cart": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
