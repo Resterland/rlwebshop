@@ -12,7 +12,7 @@
 
     "name": "resterland/rlwebshop",
     "type": "typo3-cms-extension",
-    "description": "This extension extends the Aimeos e-commerce extension.",
+    "description": "This extension extends the cart extension.",
     "license": "GPL-2.0-or-later",
     "keywords": [
         "TYPO3",
@@ -39,7 +39,7 @@
         "causal/image_autoresize": "^2.0",
         "bk2k/bootstrap-package": "^11.0",
         "resterland/resterland": "^4",
-        "aimeos/aimeos-typo3": "^20.7"
+        "extcode/cart": "^7.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
@@ -51,8 +51,7 @@
             "Classes"
         ],
         "psr-4": {
-            "Resterland\\Rlwebshop\\": "Classes",
-            "Aimeos\\Aimeos\\": "Classes"
+            "Resterland\\Rlwebshop\\": "Classes"
         }
     },
     "autoload-dev": {
