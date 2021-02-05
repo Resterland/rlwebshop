@@ -5,12 +5,11 @@
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'ResterLand WebShop',
-    'description' => 'his extension extends the Aimeos webshop extension.',
+    'description' => 'this extension is based on cart webshop extension.',
     'category' => 'plugin',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-10.9.99',
-            'aimeos' => '20.4.0-20.99.99'
+            'typo3' => '10.4.0-10.9.99'
         ],
         'conflicts' => [],
         'suggests' => [],
