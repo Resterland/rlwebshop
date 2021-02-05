@@ -38,7 +38,8 @@
         "resterland/webatelier": "^4",
         "causal/image_autoresize": "^2.0",
         "bk2k/bootstrap-package": "^11.0",
-        "resterland/resterland": "^4"
+        "resterland/resterland": "^4",
+        "extcode/cart": "^7.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
