@@ -1,20 +1,20 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "3b69c6df173bc24fb00403f3e42b849b",
-    "packages": [
-        {
-            "name": "cogpowered/finediff",
-            "version": "0.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cogpowered/FineDiff.git",
-                "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8"
-            },
-            "dist": {
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "df512018b7038b81d540b7a571c06f41",
+  "packages": [
+    {
+      "name": "cogpowered/finediff",
+      "version": "0.3.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cogpowered/FineDiff.git",
+        "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8"
+      },
+      "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/cogpowered/FineDiff/zipball/339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8",
                 "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8",
@@ -650,25 +650,107 @@
                 "issues": "https://github.com/egulias/EmailValidator/issues",
                 "source": "https://github.com/egulias/EmailValidator/tree/2.1.25"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/egulias",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-12-29T14:50:06+00:00"
+          "funding": [
+            {
+              "url": "https://github.com/egulias",
+              "type": "github"
+            }
+          ],
+          "time": "2020-12-29T14:50:06+00:00"
+        },
+    {
+      "name": "extcode/cart",
+      "version": "v7.0.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/extcode/cart.git",
+        "reference": "7ca1b6ee21def506e212ea7407e90de95ab27720"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/extcode/cart/zipball/7ca1b6ee21def506e212ea7407e90de95ab27720",
+        "reference": "7ca1b6ee21def506e212ea7407e90de95ab27720",
+        "shasum": ""
+      },
+      "require": {
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "php": ">=7.2.0 <7.5",
+        "typo3/cms-core": "^10.4",
+        "typo3/cms-form": "^10.4"
+      },
+      "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.14",
+        "helmich/typo3-typoscript-lint": "^2.0",
+        "overtrue/phplint": "^1.1",
+        "typo3/testing-framework": "^6.0"
+      },
+      "suggest": {
+        "typo3/cms-dashboard": "^10.4"
+      },
+      "type": "typo3-cms-extension",
+      "extra": {
+        "typo3/cms": {
+          "extension-key": "cart",
+          "app-dir": ".build",
+          "web-dir": ".build/public"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Extcode\\Cart\\": "Classes/",
+          "Extcode\\Cart\\Configuration\\": "Configuration/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-or-later"
+      ],
+      "authors": [
+        {
+          "name": "Daniel Gohlke",
+          "email": "ext.cart@extco.de",
+          "role": "Developer"
+        }
+      ],
+      "description": "Shopping Cart(s) for TYPO3",
+      "homepage": "https://cart.extco.de",
+      "keywords": [
+        "TYPO3 CMS",
+        "cart",
+        "shopping cart"
+      ],
+      "support": {
+        "issues": "https://github.com/extcode/cart/issues",
+        "source": "https://github.com/extcode/cart/tree/v7.0.1"
+      },
+      "funding": [
+        {
+          "url": "https://paypal.me/extcart",
+          "type": "custom"
         },
         {
-            "name": "guzzlehttp/guzzle",
-            "version": "6.5.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
+          "url": "https://github.com/extcode",
+          "type": "github"
+        },
+        {
+          "url": "https://www.patreon.com/ext_cart",
+          "type": "patreon"
+        }
+      ],
+      "time": "2021-01-02T08:30:41+00:00"
+    },
+    {
+      "name": "guzzlehttp/guzzle",
+      "version": "6.5.5",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle.git",
+        "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
                 "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
                 "shasum": ""
             },
@@ -5040,26 +5122,90 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Fluid is a next-generation templating engine which makes the life of extension authors a lot easier!",
-            "homepage": "https://typo3.org",
-            "support": {
-                "chat": "https://typo3.org/help",
-                "docs": "https://docs.typo3.org",
-                "issues": "https://forge.typo3.org",
-                "source": "https://github.com/TYPO3/TYPO3.CMS"
-            },
-            "time": "2020-12-22T06:59:57+00:00"
+          "description": "Fluid is a next-generation templating engine which makes the life of extension authors a lot easier!",
+          "homepage": "https://typo3.org",
+          "support": {
+            "chat": "https://typo3.org/help",
+            "docs": "https://docs.typo3.org",
+            "issues": "https://forge.typo3.org",
+            "source": "https://github.com/TYPO3/TYPO3.CMS"
+          },
+          "time": "2020-12-22T06:59:57+00:00"
         },
+    {
+      "name": "typo3/cms-form",
+      "version": "v10.4.12",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TYPO3-CMS/form.git",
+        "reference": "f8333f08363eb4af0d5cfe9d8c2c4190fadcb5a3"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/TYPO3-CMS/form/zipball/f8333f08363eb4af0d5cfe9d8c2c4190fadcb5a3",
+        "reference": "f8333f08363eb4af0d5cfe9d8c2c4190fadcb5a3",
+        "shasum": ""
+      },
+      "require": {
+        "psr/http-message": "^1.0",
+        "symfony/expression-language": "^4.4 || ^5.0",
+        "typo3/cms-core": "10.4.12"
+      },
+      "conflict": {
+        "typo3/cms": "*"
+      },
+      "suggest": {
+        "typo3/cms-filelist": "Listing of files in the directory",
+        "typo3/cms-impexp": "Import and Export of records from TYPO3 in a custom serialized format (.T3D) for data exchange with other TYPO3 systems."
+      },
+      "type": "typo3-cms-framework",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "10.4.x-dev"
+        },
+        "typo3/cms": {
+          "Package": {
+            "partOfFactoryDefault": true
+          },
+          "extension-key": "form"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "TYPO3\\CMS\\Form\\": "Classes/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-or-later"
+      ],
+      "authors": [
         {
-            "name": "typo3/cms-frontend",
-            "version": "v10.4.12",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TYPO3-CMS/frontend.git",
-                "reference": "1b0c64fe0cf29c437f273bf1701e14cb066256ce"
-            },
-            "dist": {
-                "type": "zip",
+          "name": "TYPO3 Core Team",
+          "email": "typo3cms@typo3.org",
+          "role": "Developer"
+        }
+      ],
+      "description": "Form Library, Plugin and Editor",
+      "homepage": "https://typo3.org",
+      "support": {
+        "chat": "https://typo3.org/help",
+        "docs": "https://docs.typo3.org/c/typo3/cms-form/master/en-us",
+        "issues": "https://forge.typo3.org",
+        "source": "https://github.com/TYPO3/TYPO3.CMS"
+      },
+      "time": "2020-12-22T06:59:57+00:00"
+    },
+    {
+      "name": "typo3/cms-frontend",
+      "version": "v10.4.12",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TYPO3-CMS/frontend.git",
+        "reference": "1b0c64fe0cf29c437f273bf1701e14cb066256ce"
+      },
+      "dist": {
+        "type": "zip",
                 "url": "https://api.github.com/repos/TYPO3-CMS/frontend/zipball/1b0c64fe0cf29c437f273bf1701e14cb066256ce",
                 "reference": "1b0c64fe0cf29c437f273bf1701e14cb066256ce",
                 "shasum": ""

@@ -34,7 +34,8 @@
         "helhum/typo3-config-handling": "^1.0",
         "helhum/typo3-secure-web": "^0.2",
         "helhum/typo3-console": "^6.3",
-        "typo3/cms-core": "^10.4"
+        "typo3/cms-core": "^10.4",
+        "extcode/cart": "^7.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
