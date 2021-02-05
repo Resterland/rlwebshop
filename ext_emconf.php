@@ -5,7 +5,7 @@
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'ResterLand WebShop',
-    'description' => 'This extension is based on the sophisticated Aimeos web shop extension.',
+    'description' => 'This extension is based on Cart web shop extension.',
     'category' => 'plugin',
     'constraints' => [
         'depends' => [
