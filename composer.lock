@@ -4,8 +4,666 @@
     "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
     "This file is @generated automatically"
   ],
-  "content-hash": "3b69c6df173bc24fb00403f3e42b849b",
+  "content-hash": "8a82e952219dafc82b3330e60c5a58f6",
   "packages": [
+    {
+      "name": "aimeos/ai-admin-jqadm",
+      "version": "2020.10.15",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aimeos/ai-admin-jqadm.git",
+        "reference": "1be6ec3fec09f952f93cf0fdf3685776d928a5a6"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/aimeos/ai-admin-jqadm/zipball/1be6ec3fec09f952f93cf0fdf3685776d928a5a6",
+        "reference": "1be6ec3fec09f952f93cf0fdf3685776d928a5a6",
+        "shasum": ""
+      },
+      "require": {
+        "aimeos/aimeos-core": "2020.10.*",
+        "composer/installers": "^1.0",
+        "php": "~7.1||~8.0"
+      },
+      "require-dev": {
+        "nyholm/psr7-server": "~1.0",
+        "phpunit/phpunit": "~7.0||~8.0||~9.0"
+      },
+      "type": "aimeos-extension",
+      "autoload": {
+        "psr-4": {
+          "Aimeos\\Admin\\JQAdm\\": "admin/jqadm/src/Admin/JQAdm/",
+          "Aimeos\\MW\\": "lib/custom/src/MW"
+        },
+        "classmap": [
+          "admin/jqadm/src",
+          "lib/custom/src"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "description": "Aimeos Vue.js+Bootstrap admin interface",
+      "homepage": "https://aimeos.org/",
+      "keywords": [
+        "Vue.js",
+        "admin",
+        "aimeos",
+        "bootstrap",
+        "extension"
+      ],
+      "time": "2021-01-26T12:28:13+00:00"
+    },
+    {
+      "name": "aimeos/ai-admin-jsonadm",
+      "version": "2020.10.6",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aimeos/ai-admin-jsonadm.git",
+        "reference": "e5ce503da03a8a2dc0c1bef9b9b48659e3dd15b0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/aimeos/ai-admin-jsonadm/zipball/e5ce503da03a8a2dc0c1bef9b9b48659e3dd15b0",
+        "reference": "e5ce503da03a8a2dc0c1bef9b9b48659e3dd15b0",
+        "shasum": ""
+      },
+      "require": {
+        "aimeos/aimeos-core": "2020.10.*",
+        "composer/installers": "^1.0",
+        "php": "~7.1||~8.0"
+      },
+      "require-dev": {
+        "nyholm/psr7-server": "~1.0",
+        "phpunit/phpunit": "~7.0||~8.0||~9.0"
+      },
+      "type": "aimeos-extension",
+      "autoload": {
+        "psr-4": {
+          "Aimeos\\Admin\\Jsonadm\\": "admin/jsonadm/src/Admin/Jsonadm/"
+        },
+        "classmap": [
+          "admin/jsonadm/src"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "description": "Aimeos ai-admin-jsonadm extension",
+      "homepage": "https://aimeos.org/",
+      "keywords": [
+        "admin",
+        "aimeos",
+        "extension",
+        "json api"
+      ],
+      "time": "2021-01-21T10:11:32+00:00"
+    },
+    {
+      "name": "aimeos/ai-client-html",
+      "version": "2020.10.16",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aimeos/ai-client-html.git",
+        "reference": "a8137b95beebeb423cdcfad69ee2355eddc0d397"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/aimeos/ai-client-html/zipball/a8137b95beebeb423cdcfad69ee2355eddc0d397",
+        "reference": "a8137b95beebeb423cdcfad69ee2355eddc0d397",
+        "shasum": ""
+      },
+      "require": {
+        "aimeos/ai-controller-frontend": "2020.10.*",
+        "aimeos/ai-controller-jobs": "2020.10.*",
+        "aimeos/aimeos-core": "2020.10.*",
+        "composer/installers": "^1.0",
+        "php": "~7.1||~8.0",
+        "tecnickcom/tcpdf": "~6.3"
+      },
+      "require-dev": {
+        "nyholm/psr7-server": "~1.0",
+        "phpunit/phpunit": "~7.0||~8.0||~9.0"
+      },
+      "type": "aimeos-extension",
+      "autoload": {
+        "psr-4": {
+          "Aimeos\\Client\\Html\\": "client/html/src/Client/Html/",
+          "Aimeos\\Controller\\Jobs\\": "controller/jobs/src/Controller/Jobs/",
+          "Aimeos\\Controller\\Common\\": "controller/common/src/Controller/Common/"
+        },
+        "classmap": [
+          "client/html/src",
+          "controller/jobs/src",
+          "controller/common/src"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "description": "Aimeos ai-client-html extension",
+      "homepage": "https://aimeos.org/",
+      "keywords": [
+        "aimeos",
+        "client",
+        "extension",
+        "html"
+      ],
+      "time": "2021-01-21T10:11:49+00:00"
+    },
+    {
+      "name": "aimeos/ai-client-jsonapi",
+      "version": "2020.10.9",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aimeos/ai-client-jsonapi.git",
+        "reference": "80ff11431fd61086b7784e6bb7eda4624bd51791"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/aimeos/ai-client-jsonapi/zipball/80ff11431fd61086b7784e6bb7eda4624bd51791",
+        "reference": "80ff11431fd61086b7784e6bb7eda4624bd51791",
+        "shasum": ""
+      },
+      "require": {
+        "aimeos/ai-controller-frontend": "2020.10.*",
+        "aimeos/aimeos-core": "2020.10.*",
+        "composer/installers": "^1.0",
+        "php": "~7.1||~8.0"
+      },
+      "require-dev": {
+        "nyholm/psr7-server": "~1.0",
+        "phpunit/phpunit": "~7.0||~8.0||~9.0"
+      },
+      "type": "aimeos-extension",
+      "autoload": {
+        "psr-4": {
+          "Aimeos\\Client\\JsonApi\\": "client/jsonapi/src/Client/JsonApi/",
+          "Aimeos\\MW\\": "lib/custom/src/MW/"
+        },
+        "classmap": [
+          "client/jsonapi/src",
+          "lib/custom/src"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "description": "Aimeos JSON API extension",
+      "keywords": [
+        "aimeos",
+        "api",
+        "extension",
+        "json"
+      ],
+      "time": "2021-01-21T10:12:09+00:00"
+    },
+    {
+      "name": "aimeos/ai-controller-frontend",
+      "version": "2020.10.6",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aimeos/ai-controller-frontend.git",
+        "reference": "4f334dc5c5c678c4cf7f257709775edc19dafb3a"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/aimeos/ai-controller-frontend/zipball/4f334dc5c5c678c4cf7f257709775edc19dafb3a",
+        "reference": "4f334dc5c5c678c4cf7f257709775edc19dafb3a",
+        "shasum": ""
+      },
+      "require": {
+        "aimeos/aimeos-core": "2020.10.*",
+        "composer/installers": "^1.0",
+        "php": "~7.1||~8.0"
+      },
+      "require-dev": {
+        "phpunit/phpunit": "~7.0||~8.0||~9.0"
+      },
+      "type": "aimeos-extension",
+      "autoload": {
+        "psr-4": {
+          "Aimeos\\Controller\\Frontend\\": "controller/frontend/src/Controller/Frontend/"
+        },
+        "classmap": [
+          "controller/frontend/src"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "description": "Aimeos ai-controller-frontend extension",
+      "homepage": "https://aimeos.org/",
+      "keywords": [
+        "aimeos",
+        "controller",
+        "extension",
+        "frontend"
+      ],
+      "time": "2021-01-21T10:12:29+00:00"
+    },
+    {
+      "name": "aimeos/ai-controller-jobs",
+      "version": "2020.10.8",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aimeos/ai-controller-jobs.git",
+        "reference": "4da025b9d621b5a4009a1a5b7a7bed6ef8ef11ae"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/aimeos/ai-controller-jobs/zipball/4da025b9d621b5a4009a1a5b7a7bed6ef8ef11ae",
+        "reference": "4da025b9d621b5a4009a1a5b7a7bed6ef8ef11ae",
+        "shasum": ""
+      },
+      "require": {
+        "aimeos/aimeos-core": "2020.10.*",
+        "composer/installers": "^1.0",
+        "php": "~7.1||~8.0"
+      },
+      "require-dev": {
+        "phpunit/phpunit": "~7.0||~8.0||~9.0"
+      },
+      "type": "aimeos-extension",
+      "autoload": {
+        "psr-4": {
+          "Aimeos\\Controller\\Common\\": "controller/jobs/src/Controller/Common/",
+          "Aimeos\\Controller\\Jobs\\": "controller/jobs/src/Controller/Jobs/"
+        },
+        "classmap": [
+          "controller/common/src",
+          "controller/jobs/src"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "description": "Aimeos ai-controller-jobs extension",
+      "homepage": "https://aimeos.org/",
+      "keywords": [
+        "aimeos",
+        "controller",
+        "extension",
+        "jobs"
+      ],
+      "time": "2021-01-21T10:12:45+00:00"
+    },
+    {
+      "name": "aimeos/ai-gettext",
+      "version": "2020.10.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aimeos/ai-gettext.git",
+        "reference": "7153dd4242ef15a158ae24349aa47530fe040e04"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/aimeos/ai-gettext/zipball/7153dd4242ef15a158ae24349aa47530fe040e04",
+        "reference": "7153dd4242ef15a158ae24349aa47530fe040e04",
+        "shasum": ""
+      },
+      "require": {
+        "aimeos/aimeos-core": "2020.10.*",
+        "composer/installers": "^1.0",
+        "php": "~7.1||~8.0"
+      },
+      "require-dev": {
+        "phpunit/phpunit": "~7.0||~8.0||~9.0"
+      },
+      "type": "aimeos-extension",
+      "autoload": {
+        "psr-4": {
+          "Aimeos\\MW\\": "lib/mwlib/src/MW/"
+        },
+        "classmap": [
+          "lib/custom/src"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "description": "Aimeos Gettext extension",
+      "homepage": "https://aimeos.org/",
+      "keywords": [
+        "aimeos",
+        "extension",
+        "gettext",
+        "performance"
+      ],
+      "time": "2021-01-20T09:37:11+00:00"
+    },
+    {
+      "name": "aimeos/ai-typo3",
+      "version": "2020.10.5",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aimeos/ai-typo3.git",
+        "reference": "706254cccc593b7ab63eb44a918eb4aae5251738"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/aimeos/ai-typo3/zipball/706254cccc593b7ab63eb44a918eb4aae5251738",
+        "reference": "706254cccc593b7ab63eb44a918eb4aae5251738",
+        "shasum": ""
+      },
+      "require": {
+        "aimeos/aimeos-core": "2020.10.*",
+        "composer/installers": "^1.0",
+        "nyholm/psr7": "~1.2",
+        "nyholm/psr7-server": "^0.4.1",
+        "php": "~7.1"
+      },
+      "require-dev": {
+        "phpunit/phpunit": "~7.0||~8.0",
+        "typo3/cms-core": "~9.5||~10.3",
+        "typo3/cms-extbase": "~9.5||~10.3"
+      },
+      "type": "aimeos-extension",
+      "autoload": {
+        "psr-4": {
+          "Aimeos\\MShop\\": "lib/custom/src/MShop",
+          "Aimeos\\MW\\": "lib/custom/src/MW"
+        },
+        "classmap": [
+          "lib/custom/src"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "description": "TYPO3 adapter for Aimeos web shops and e-commerce solutions",
+      "homepage": "https://aimeos.org/TYPO3",
+      "keywords": [
+        "adapter",
+        "aimeos",
+        "cms",
+        "e-commerce",
+        "shop",
+        "typo3"
+      ],
+      "time": "2020-12-16T08:50:31+00:00"
+    },
+    {
+      "name": "aimeos/aimeos-core",
+      "version": "2020.10.16",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aimeos/aimeos-core.git",
+        "reference": "cbe0a73546db4b5c571cb1d2803d49f14a5b5da9"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/aimeos/aimeos-core/zipball/cbe0a73546db4b5c571cb1d2803d49f14a5b5da9",
+        "reference": "cbe0a73546db4b5c571cb1d2803d49f14a5b5da9",
+        "shasum": ""
+      },
+      "require": {
+        "aimeos/map": "^1.6",
+        "doctrine/dbal": "~2.0",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-fileinfo": "*",
+        "ext-gd": "*",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-pcre": "*",
+        "ext-pdo": "*",
+        "ext-zip": "*",
+        "nyholm/psr7": "^1.2",
+        "php": "~7.1||^8.0.1",
+        "psr/http-message": "~1.0",
+        "tecnickcom/tcpdf": "~6.3",
+        "voku/portable-ascii": "^1.4"
+      },
+      "require-dev": {
+        "phing/phing": "~2.4",
+        "php-coveralls/php-coveralls": "~2.0",
+        "phpunit/phpunit": "~7.0||~8.0||~9.0",
+        "squizlabs/php_codesniffer": "~3.0"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Aimeos\\MW\\": "lib/mwlib/src/MW/",
+          "Aimeos\\MShop\\": "lib/mshoplib/src/MShop/",
+          "Aimeos\\MAdmin\\": "lib/mshoplib/src/MAdmin/",
+          "Aimeos\\Controller\\Common\\": "controller/common/src/Controller/Common/",
+          "Aimeos\\Controller\\Jobs\\": "controller/common/src/Controller/Jobs/"
+        },
+        "classmap": [
+          "lib/mwlib/src",
+          "lib/mshoplib/src",
+          "lib/mshoplib/setup",
+          "controller/common/src",
+          "controller/jobs/src",
+          "Bootstrap.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "description": "Full-featured e-commerce components for high performance online shops",
+      "homepage": "https://aimeos.org",
+      "keywords": [
+        "B2C",
+        "b2b",
+        "ecommerce",
+        "gigacommerce",
+        "marketplace",
+        "portal",
+        "shop"
+      ],
+      "time": "2021-01-26T13:53:44+00:00"
+    },
+    {
+      "name": "aimeos/aimeos-typo3",
+      "version": "20.10.5",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aimeos/aimeos-typo3.git",
+        "reference": "c7fa9492052429118f59e5b2d5dd498dfe786d90"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/aimeos/aimeos-typo3/zipball/c7fa9492052429118f59e5b2d5dd498dfe786d90",
+        "reference": "c7fa9492052429118f59e5b2d5dd498dfe786d90",
+        "shasum": ""
+      },
+      "require": {
+        "aimeos/ai-admin-jqadm": "2020.10.*",
+        "aimeos/ai-admin-jsonadm": "2020.10.*",
+        "aimeos/ai-client-html": "2020.10.*",
+        "aimeos/ai-client-jsonapi": "2020.10.*",
+        "aimeos/ai-gettext": "2020.10.*",
+        "aimeos/ai-typo3": "2020.10.*",
+        "aimeos/aimeos-core": "2020.10.*",
+        "bithost-gmbh/pdfviewhelpers": "^2.3.4",
+        "doctrine/dbal": "~2.5",
+        "nyholm/psr7": "~1.2",
+        "nyholm/psr7-server": "^0.4.1",
+        "php": ">=7.2.0",
+        "sjbr/static-info-tables": "^6.5",
+        "typo3/cms-backend": "~9.5||~10.4",
+        "typo3/cms-composer-installers": "~3.0",
+        "typo3/cms-core": "~9.5||~10.4",
+        "typo3/cms-extbase": "~9.5||~10.4",
+        "typo3/cms-scheduler": "~9.5||~10.4"
+      },
+      "replace": {
+        "aimeos/aimeos-typo3": "self.version",
+        "typo3-ter/aimeos": "self.version"
+      },
+      "type": "typo3-cms-extension",
+      "extra": {
+        "installer-paths": {
+          "Resources/Private/Extensions/{$name}/": [
+            "type:aimeos-extension"
+          ]
+        },
+        "typo3/cms": {
+          "extension-key": "aimeos"
+        }
+      },
+      "autoload": {
+        "classmap": [
+          "Classes"
+        ],
+        "psr-4": {
+          "Aimeos\\Aimeos\\": "Classes"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "description": "Professional, full-featured and high performance TYPO3 e-commerce extension for online shops and complex B2B projects",
+      "homepage": "https://www.aimeos.org",
+      "keywords": [
+        "aimeos",
+        "b2b",
+        "e-commerce",
+        "ecommerce",
+        "market place",
+        "portal",
+        "shop",
+        "typo3"
+      ],
+      "time": "2021-01-07T09:11:34+00:00"
+    },
+    {
+      "name": "aimeos/map",
+      "version": "1.11.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aimeos/map.git",
+        "reference": "2a89e0afec968ec6a8f6773891037e3aa9be5964"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/aimeos/map/zipball/2a89e0afec968ec6a8f6773891037e3aa9be5964",
+        "reference": "2a89e0afec968ec6a8f6773891037e3aa9be5964",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.1||^8.0"
+      },
+      "require-dev": {
+        "php-coveralls/php-coveralls": "~2.0",
+        "phpunit/phpunit": "~7.0||~8.0||~9.0"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Aimeos\\": "src/"
+        },
+        "files": [
+          "src/function.php"
+        ],
+        "classmap": [
+          "src/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "Easy and elegant handling of PHP arrays as array-like map objects similar to jQuery and Laravel Collections",
+      "keywords": [
+        "array",
+        "collection",
+        "map",
+        "php"
+      ],
+      "time": "2020-12-29T08:58:48+00:00"
+    },
+    {
+      "name": "bithost-gmbh/pdfviewhelpers",
+      "version": "v2.3.4",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bithost-gmbh/pdfviewhelpers.git",
+        "reference": "6095da7f38a74e3ab6fedc7224c2cd058aa9c37e"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/bithost-gmbh/pdfviewhelpers/zipball/6095da7f38a74e3ab6fedc7224c2cd058aa9c37e",
+        "reference": "6095da7f38a74e3ab6fedc7224c2cd058aa9c37e",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.0.0",
+        "typo3/cms-core": ">=8.7.0 <10.4.99"
+      },
+      "replace": {
+        "typo3-ter/pdfviewhelpers": "self.version"
+      },
+      "require-dev": {
+        "nimut/testing-framework": "^2.0 || ^3.0 || ^4.0 || ^5.0",
+        "php-coveralls/php-coveralls": "^2.1",
+        "smalot/pdfparser": "^0.12.0"
+      },
+      "type": "typo3-cms-extension",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.x-dev"
+        },
+        "typo3/cms": {
+          "cms-package-dir": "{$vendor-dir}/typo3/cms",
+          "web-dir": ".Build/Web"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Bithost\\Pdfviewhelpers\\": "Classes"
+        },
+        "classmap": [
+          "Resources/Private/PHP/tcpdf/",
+          "Resources/Private/PHP/fpdi/src/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-3.0-or-later"
+      ],
+      "authors": [
+        {
+          "name": "Markus Mächler",
+          "email": "markus.maechler@bithost.ch"
+        },
+        {
+          "name": "Esteban Gehring",
+          "email": "esteban.gehring@bithost.ch"
+        }
+      ],
+      "description": "This is a TYPO3 CMS extension that provides various Fluid ViewHelpers to generate PDF documents.",
+      "homepage": "https://github.com/bithost-gmbh/pdfviewhelpers",
+      "keywords": [
+        "TCPDF",
+        "ViewHelpers",
+        "fluid",
+        "fpdi",
+        "generation",
+        "generator",
+        "pdf"
+      ],
+      "funding": [
+        {
+          "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YGTVWHW8TP8Q4",
+          "type": "custom"
+        }
+      ],
+      "time": "2020-06-25T07:53:05+00:00"
+    },
     {
       "name": "cogpowered/finediff",
       "version": "0.3.1",
@@ -25,16 +683,16 @@
       },
       "require-dev": {
         "mockery/mockery": "*",
-                "phpunit/phpunit": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "cogpowered\\FineDiff": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
+        "phpunit/phpunit": "*"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-0": {
+          "cogpowered\\FineDiff": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
                 "MIT"
             ],
             "authors": [
@@ -48,26 +706,126 @@
             ],
             "description": "PHP implementation of a Fine granularity Diff engine",
             "homepage": "https://github.com/cogpowered/FineDiff",
-            "keywords": [
-                "diff",
-                "finediff",
-                "opcode",
-                "string",
-                "text"
-            ],
-            "time": "2014-05-19T10:25:02+00:00"
-        },
+      "keywords": [
+        "diff",
+        "finediff",
+        "opcode",
+        "string",
+        "text"
+      ],
+      "time": "2014-05-19T10:25:02+00:00"
+    },
+    {
+      "name": "composer/installers",
+      "version": "v1.0.24",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/composer/installers.git",
+        "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/composer/installers/zipball/1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+        "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+        "shasum": ""
+      },
+      "require": {
+        "composer-plugin-api": "^1.0"
+      },
+      "replace": {
+        "roundcube/plugin-installer": "*",
+        "shama/baton": "*"
+      },
+      "require-dev": {
+        "composer/composer": "1.0.*@dev",
+        "phpunit/phpunit": "4.1.*"
+      },
+      "type": "composer-plugin",
+      "extra": {
+        "class": "Composer\\Installers\\Plugin",
+        "branch-alias": {
+          "dev-master": "1.0-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Composer\\Installers\\": "src/Composer/Installers"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
         {
-            "name": "doctrine/annotations",
-            "version": "1.11.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/annotations.git",
-                "reference": "ce77a7ba1770462cd705a91a151b6c3746f9c6ad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/ce77a7ba1770462cd705a91a151b6c3746f9c6ad",
+          "name": "Kyle Robinson Young",
+          "email": "kyle@dontkry.com",
+          "homepage": "https://github.com/shama"
+        }
+      ],
+      "description": "A multi-framework Composer library installer",
+      "homepage": "https://composer.github.io/installers/",
+      "keywords": [
+        "Craft",
+        "Dolibarr",
+        "Hurad",
+        "ImageCMS",
+        "MODX Evo",
+        "Mautic",
+        "OXID",
+        "SMF",
+        "Thelia",
+        "WolfCMS",
+        "agl",
+        "aimeos",
+        "annotatecms",
+        "bitrix",
+        "cakephp",
+        "chef",
+        "codeigniter",
+        "concrete5",
+        "croogo",
+        "dokuwiki",
+        "drupal",
+        "elgg",
+        "fuelphp",
+        "grav",
+        "installer",
+        "joomla",
+        "kohana",
+        "laravel",
+        "lithium",
+        "magento",
+        "mako",
+        "mediawiki",
+        "modulework",
+        "moodle",
+        "phpbb",
+        "piwik",
+        "ppi",
+        "puppet",
+        "roundcube",
+        "shopware",
+        "silverstripe",
+        "symfony",
+        "typo3",
+        "wordpress",
+        "zend",
+        "zikula"
+      ],
+      "time": "2016-04-05T11:42:46+00:00"
+    },
+    {
+      "name": "doctrine/annotations",
+      "version": "1.11.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/doctrine/annotations.git",
+        "reference": "ce77a7ba1770462cd705a91a151b6c3746f9c6ad"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/doctrine/annotations/zipball/ce77a7ba1770462cd705a91a151b6c3746f9c6ad",
                 "reference": "ce77a7ba1770462cd705a91a151b6c3746f9c6ad",
                 "shasum": ""
             },
@@ -609,15 +1367,15 @@
                     "name": "Eduardo Gulias Davis"
                 }
             ],
-            "description": "A library for validating emails against several RFCs",
-            "homepage": "https://github.com/egulias/EmailValidator",
-            "keywords": [
-              "email",
-              "emailvalidation",
-              "emailvalidator",
-              "validation",
-              "validator"
-            ],
+          "description": "A library for validating emails against several RFCs",
+          "homepage": "https://github.com/egulias/EmailValidator",
+          "keywords": [
+            "email",
+            "emailvalidation",
+            "emailvalidator",
+            "validation",
+            "validator"
+          ],
           "support": {
             "issues": "https://github.com/egulias/EmailValidator/issues",
             "source": "https://github.com/egulias/EmailValidator/tree/2.1.25"
@@ -651,16 +1409,16 @@
         "php": ">=5.5",
         "symfony/polyfill-intl-idn": "^1.17.0"
       },
-            "require-dev": {
-                "ext-curl": "*",
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
-                "psr/log": "^1.1"
-            },
-            "suggest": {
-                "psr/log": "Required for using the Log middleware"
-            },
-            "type": "library",
-            "extra": {
+      "require-dev": {
+        "ext-curl": "*",
+        "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+        "psr/log": "^1.1"
+      },
+      "suggest": {
+        "psr/log": "Required for using the Log middleware"
+      },
+      "type": "library",
+      "extra": {
                 "branch-alias": {
                     "dev-master": "6.5-dev"
                 }
@@ -1202,24 +1960,209 @@
                     "name": "Nikita Popov"
                 }
             ],
-            "description": "A PHP parser written in PHP",
-            "keywords": [
-                "parser",
-                "php"
-            ],
-            "time": "2020-12-20T10:01:03+00:00"
+          "description": "A PHP parser written in PHP",
+          "keywords": [
+            "parser",
+            "php"
+          ],
+          "time": "2020-12-20T10:01:03+00:00"
+        },
+    {
+      "name": "nyholm/psr7",
+      "version": "1.3.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nyholm/psr7.git",
+        "reference": "a272953743c454ac4af9626634daaf5ab3ce1173"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/Nyholm/psr7/zipball/a272953743c454ac4af9626634daaf5ab3ce1173",
+        "reference": "a272953743c454ac4af9626634daaf5ab3ce1173",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.1",
+        "php-http/message-factory": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0"
+      },
+      "provide": {
+        "psr/http-factory-implementation": "1.0",
+        "psr/http-message-implementation": "1.0"
+      },
+      "require-dev": {
+        "http-interop/http-factory-tests": "^0.8",
+        "php-http/psr7-integration-tests": "^1.0",
+        "phpunit/phpunit": "^7.5 || 8.5 || 9.4",
+        "symfony/error-handler": "^4.4"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.0-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Nyholm\\Psr7\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com"
         },
         {
-            "name": "phpdocumentor/reflection-common",
-            "version": "2.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
-                "reference": "1d01c49d4ed62f25aa84a747ad35d5a16924662b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/1d01c49d4ed62f25aa84a747ad35d5a16924662b",
+          "name": "Martijn van der Ven",
+          "email": "martijn@vanderven.se"
+        }
+      ],
+      "description": "A fast PHP7 implementation of PSR-7",
+      "homepage": "https://tnyholm.se",
+      "keywords": [
+        "psr-17",
+        "psr-7"
+      ],
+      "funding": [
+        {
+          "url": "https://github.com/Zegnat",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/nyholm",
+          "type": "github"
+        }
+      ],
+      "time": "2020-11-14T17:35:34+00:00"
+    },
+    {
+      "name": "nyholm/psr7-server",
+      "version": "0.4.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nyholm/psr7-server.git",
+        "reference": "aab2962c970a1776447894e4fd3825a3d69dee61"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/Nyholm/psr7-server/zipball/aab2962c970a1776447894e4fd3825a3d69dee61",
+        "reference": "aab2962c970a1776447894e4fd3825a3d69dee61",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.1",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0"
+      },
+      "require-dev": {
+        "nyholm/nsa": "^1.1",
+        "nyholm/psr7": "^1.3",
+        "phpunit/phpunit": "^7.0"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Nyholm\\Psr7Server\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com"
+        },
+        {
+          "name": "Martijn van der Ven",
+          "email": "martijn@vanderven.se"
+        }
+      ],
+      "description": "Helper classes to handle PSR-7 server requests",
+      "homepage": "http://tnyholm.se",
+      "keywords": [
+        "psr-17",
+        "psr-7"
+      ],
+      "funding": [
+        {
+          "url": "https://github.com/Zegnat",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/nyholm",
+          "type": "github"
+        }
+      ],
+      "time": "2020-06-06T10:33:29+00:00"
+    },
+    {
+      "name": "php-http/message-factory",
+      "version": "v1.0.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-http/message-factory.git",
+        "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-http/message-factory/zipball/a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+        "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.4",
+        "psr/http-message": "^1.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.0-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Http\\Message\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com"
+        }
+      ],
+      "description": "Factory interfaces for PSR-7 HTTP Message",
+      "homepage": "http://php-http.org",
+      "keywords": [
+        "factory",
+        "http",
+        "message",
+        "stream",
+        "uri"
+      ],
+      "time": "2015-12-19T14:08:53+00:00"
+    },
+    {
+      "name": "phpdocumentor/reflection-common",
+      "version": "2.2.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
+        "reference": "1d01c49d4ed62f25aa84a747ad35d5a16924662b"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/1d01c49d4ed62f25aa84a747ad35d5a16924662b",
                 "reference": "1d01c49d4ed62f25aa84a747ad35d5a16924662b",
                 "shasum": ""
             },
@@ -1831,26 +2774,69 @@
             "license": [
                 "MIT"
             ],
-            "authors": [
-                {
-                    "name": "Ralph Khattar",
-                    "email": "ralph.khattar@gmail.com"
-                }
-            ],
-            "description": "A polyfill for getallheaders.",
-            "time": "2019-03-08T08:55:37+00:00"
+          "authors": [
+            {
+              "name": "Ralph Khattar",
+              "email": "ralph.khattar@gmail.com"
+            }
+          ],
+          "description": "A polyfill for getallheaders.",
+          "time": "2019-03-08T08:55:37+00:00"
+        },
+    {
+      "name": "sjbr/static-info-tables",
+      "version": "v6.9.5",
+      "source": {
+        "type": "git",
+        "url": "https://git.typo3.org/TYPO3CMS/Extensions/static_info_tables.git",
+        "reference": "7fccdefabdeeca5e1769474393ed7d734d120b92"
+      },
+      "require": {
+        "php": "^7.0",
+        "typo3/cms-core": ">=9.5, <11.0"
+      },
+      "replace": {
+        "typo3-ter/static-info-tables": "self.version"
+      },
+      "type": "typo3-cms-extension",
+      "autoload": {
+        "psr-4": {
+          "SJBR\\StaticInfoTables\\": "Classes/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-or-later"
+      ],
+      "authors": [
+        {
+          "name": "Stanislas Rolland",
+          "homepage": "https://www.sjbr.ca",
+          "role": "Developer"
         },
         {
-            "name": "symfony/cache",
-            "version": "v5.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/cache.git",
-                "reference": "d6aed6c1bbf6f59e521f46437475a0ff4878d388"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/d6aed6c1bbf6f59e521f46437475a0ff4878d388",
+          "name": "René Fritz",
+          "role": "Developer"
+        }
+      ],
+      "description": "Data and API for countries, languages and currencies for use in TYPO3 CMS.",
+      "homepage": "https://forge.typo3.org/projects/extension-static_info_tables",
+      "keywords": [
+        "typo3"
+      ],
+      "time": "2020-11-24T16:39:17+00:00"
+    },
+    {
+      "name": "symfony/cache",
+      "version": "v5.2.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/cache.git",
+        "reference": "d6aed6c1bbf6f59e521f46437475a0ff4878d388"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/cache/zipball/d6aed6c1bbf6f59e521f46437475a0ff4878d388",
                 "reference": "d6aed6c1bbf6f59e521f46437475a0ff4878d388",
                 "shasum": ""
             },
@@ -4278,26 +5264,88 @@
                 },
                 {
                     "url": "https://github.com/fabpot",
-                    "type": "github"
+                  "type": "github"
                 },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
+              {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+              }
             ],
-            "time": "2021-02-03T04:42:09+00:00"
+          "time": "2021-02-03T04:42:09+00:00"
         },
+    {
+      "name": "tecnickcom/tcpdf",
+      "version": "6.3.5",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tecnickcom/TCPDF.git",
+        "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/19a535eaa7fb1c1cac499109deeb1a7a201b4549",
+        "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.3.0"
+      },
+      "type": "library",
+      "autoload": {
+        "classmap": [
+          "config",
+          "include",
+          "tcpdf.php",
+          "tcpdf_parser.php",
+          "tcpdf_import.php",
+          "tcpdf_barcodes_1d.php",
+          "tcpdf_barcodes_2d.php",
+          "include/tcpdf_colors.php",
+          "include/tcpdf_filters.php",
+          "include/tcpdf_font_data.php",
+          "include/tcpdf_fonts.php",
+          "include/tcpdf_images.php",
+          "include/tcpdf_static.php",
+          "include/barcodes/datamatrix.php",
+          "include/barcodes/pdf417.php",
+          "include/barcodes/qrcode.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-only"
+      ],
+      "authors": [
         {
-            "name": "typo3/class-alias-loader",
-            "version": "v1.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TYPO3/class-alias-loader.git",
-                "reference": "575f59581541f299f3a86a95b1db001ee6e1d2e0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/class-alias-loader/zipball/575f59581541f299f3a86a95b1db001ee6e1d2e0",
+          "name": "Nicola Asuni",
+          "email": "info@tecnick.com",
+          "role": "lead"
+        }
+      ],
+      "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
+      "homepage": "http://www.tcpdf.org/",
+      "keywords": [
+        "PDFD32000-2008",
+        "TCPDF",
+        "barcodes",
+        "datamatrix",
+        "pdf",
+        "pdf417",
+        "qrcode"
+      ],
+      "time": "2020-02-14T14:20:12+00:00"
+    },
+    {
+      "name": "typo3/class-alias-loader",
+      "version": "v1.1.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TYPO3/class-alias-loader.git",
+        "reference": "575f59581541f299f3a86a95b1db001ee6e1d2e0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/TYPO3/class-alias-loader/zipball/575f59581541f299f3a86a95b1db001ee6e1d2e0",
                 "reference": "575f59581541f299f3a86a95b1db001ee6e1d2e0",
                 "shasum": ""
             },
@@ -4889,15 +5937,15 @@
                         "partOfFactoryDefault": true,
                         "partOfMinimalUsableSystem": true
                     },
-                    "extension-key": "fluid"
+                  "extension-key": "fluid"
                 }
             },
-            "autoload": {
-                "psr-4": {
-                    "TYPO3\\CMS\\Fluid\\": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
+          "autoload": {
+            "psr-4": {
+              "TYPO3\\CMS\\Fluid\\": "Classes/"
+            }
+          },
+          "notification-url": "https://packagist.org/downloads/",
           "license": [
             "GPL-2.0-or-later"
           ],
@@ -4938,16 +5986,16 @@
       },
       "conflict": {
         "typo3/cms": "*"
-            },
-            "suggest": {
-                "typo3/cms-adminpanel": "Provides additional information and functionality for backend users in the frontend."
-            },
-            "type": "typo3-cms-framework",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "10.4.x-dev"
-                },
-                "typo3/cms": {
+      },
+      "suggest": {
+        "typo3/cms-adminpanel": "Provides additional information and functionality for backend users in the frontend."
+      },
+      "type": "typo3-cms-framework",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "10.4.x-dev"
+        },
+        "typo3/cms": {
                     "Package": {
                         "serviceProvider": "TYPO3\\CMS\\Frontend\\ServiceProvider",
                         "protected": true,
@@ -5100,26 +6148,75 @@
                 }
             ],
             "description": "List of database-records",
-            "homepage": "https://typo3.org",
-            "support": {
-                "chat": "https://typo3.org/help",
-                "docs": "https://docs.typo3.org",
-                "issues": "https://forge.typo3.org",
-                "source": "https://github.com/TYPO3/TYPO3.CMS"
-            },
-            "time": "2020-12-22T06:59:57+00:00"
+          "homepage": "https://typo3.org",
+          "support": {
+            "chat": "https://typo3.org/help",
+            "docs": "https://docs.typo3.org",
+            "issues": "https://forge.typo3.org",
+            "source": "https://github.com/TYPO3/TYPO3.CMS"
+          },
+          "time": "2020-12-22T06:59:57+00:00"
         },
+    {
+      "name": "typo3/cms-scheduler",
+      "version": "v10.4.12",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TYPO3-CMS/scheduler.git",
+        "reference": "67e1e3fd6d76f09d332d25214c8112af404a1118"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/TYPO3-CMS/scheduler/zipball/67e1e3fd6d76f09d332d25214c8112af404a1118",
+        "reference": "67e1e3fd6d76f09d332d25214c8112af404a1118",
+        "shasum": ""
+      },
+      "require": {
+        "typo3/cms-core": "10.4.12"
+      },
+      "conflict": {
+        "typo3/cms": "*"
+      },
+      "type": "typo3-cms-framework",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "10.4.x-dev"
+        },
+        "typo3/cms": {
+          "extension-key": "scheduler"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "TYPO3\\CMS\\Scheduler\\": "Classes/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-or-later"
+      ],
+      "authors": [
         {
-            "name": "typo3/minimal",
-            "version": "v10.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TYPO3/minimal.git",
-                "reference": "858bc4b51f9183306f4301db3cead2f99a0d48ff"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/minimal/zipball/858bc4b51f9183306f4301db3cead2f99a0d48ff",
+          "name": "TYPO3 Core Team",
+          "email": "typo3cms@typo3.org",
+          "role": "Developer"
+        }
+      ],
+      "description": "The TYPO3 Scheduler let's you register tasks to happen at a specific time",
+      "homepage": "https://typo3.org",
+      "time": "2020-12-22T06:59:57+00:00"
+    },
+    {
+      "name": "typo3/minimal",
+      "version": "v10.4.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TYPO3/minimal.git",
+        "reference": "858bc4b51f9183306f4301db3cead2f99a0d48ff"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/TYPO3/minimal/zipball/858bc4b51f9183306f4301db3cead2f99a0d48ff",
                 "reference": "858bc4b51f9183306f4301db3cead2f99a0d48ff",
                 "shasum": ""
             },
@@ -5281,24 +6378,94 @@
                     "TYPO3Fluid\\Fluid\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "description": "The TYPO3 Fluid template rendering engine",
-            "time": "2020-11-16T21:38:14+00:00"
+          "notification-url": "https://packagist.org/downloads/",
+          "license": [
+            "LGPL-3.0-or-later"
+          ],
+          "description": "The TYPO3 Fluid template rendering engine",
+          "time": "2020-11-16T21:38:14+00:00"
+        },
+    {
+      "name": "voku/portable-ascii",
+      "version": "1.5.6",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/voku/portable-ascii.git",
+        "reference": "80953678b19901e5165c56752d087fc11526017c"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/voku/portable-ascii/zipball/80953678b19901e5165c56752d087fc11526017c",
+        "reference": "80953678b19901e5165c56752d087fc11526017c",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.0.0"
+      },
+      "require-dev": {
+        "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+      },
+      "suggest": {
+        "ext-intl": "Use Intl for transliterator_transliterate() support"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "voku\\": "src/voku/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Lars Moelleken",
+          "homepage": "http://www.moelleken.org/"
+        }
+      ],
+      "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
+      "homepage": "https://github.com/voku/portable-ascii",
+      "keywords": [
+        "ascii",
+        "clean",
+        "php"
+      ],
+      "funding": [
+        {
+          "url": "https://www.paypal.me/moelleken",
+          "type": "custom"
         },
         {
-            "name": "webmozart/assert",
-            "version": "1.9.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webmozarts/assert.git",
-                "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+          "url": "https://github.com/voku",
+          "type": "github"
+        },
+        {
+          "url": "https://opencollective.com/portable-ascii",
+          "type": "open_collective"
+        },
+        {
+          "url": "https://www.patreon.com/voku",
+          "type": "patreon"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2020-11-12T00:07:28+00:00"
+    },
+    {
+      "name": "webmozart/assert",
+      "version": "1.9.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/webmozarts/assert.git",
+        "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
@@ -6402,16 +7569,16 @@
                 "la-haute-societe/tcpdf": "<6.2.22",
                 "laravel/framework": "<6.20.14|>=7,<7.30.4|>=8,<8.24",
                 "laravel/socialite": ">=1,<1.0.99|>=2,<2.0.10",
-                "league/commonmark": "<0.18.3",
-                "librenms/librenms": "<1.53",
-                "livewire/livewire": ">2.2.4,<2.2.6",
-                "magento/community-edition": ">=2,<2.2.10|>=2.3,<2.3.3",
-                "magento/magento1ce": "<1.9.4.3",
-                "magento/magento1ee": ">=1,<1.14.4.3",
-                "magento/product-community-edition": ">=2,<2.2.10|>=2.3,<2.3.2-p.2",
-                "marcwillmann/turn": "<0.3.3",
-                "mautic/core": "<2.16.5|>=3,<3.2.4|= 2.13.1",
-                "mediawiki/core": ">=1.27,<1.27.6|>=1.29,<1.29.3|>=1.30,<1.30.2|>=1.31,<1.31.9|>=1.32,<1.32.6|>=1.32.99,<1.33.3|>=1.33.99,<1.34.3|>=1.34.99,<1.35",
+              "league/commonmark": "<0.18.3",
+              "librenms/librenms": "<1.53",
+              "livewire/livewire": ">2.2.4,<2.2.6",
+              "magento/community-edition": ">=2,<2.2.10|>=2.3,<2.3.3",
+              "magento/magento1ce": "<1.9.4.3",
+              "magento/magento1ee": ">=1,<1.14.4.3",
+              "magento/product-community-edition": ">=2,<2.2.10|>=2.3,<2.3.2-p.2",
+              "marcwillmann/turn": "<0.3.3",
+              "mautic/core": "<2.16.5|>=3,<3.2.4|= 2.13.1",
+              "mediawiki/core": ">=1.27,<1.27.6|>=1.29,<1.29.3|>=1.30,<1.30.2|>=1.31,<1.31.9|>=1.32,<1.32.6|>=1.32.99,<1.33.3|>=1.33.99,<1.34.3|>=1.34.99,<1.35",
               "mittwald/typo3_forum": "<1.2.1",
               "monolog/monolog": ">=1.8,<1.12",
               "namshi/jose": "<2.2",
@@ -6433,29 +7600,29 @@
               "padraic/humbug_get_contents": "<1.1.2",
               "pagarme/pagarme-php": ">=0,<3",
               "paragonie/random_compat": "<2",
-                "passbolt/passbolt_api": "<2.11",
-                "paypal/merchant-sdk-php": "<3.12",
-                "pear/archive_tar": "<1.4.12",
-                "personnummer/personnummer": "<3.0.2",
-                "phpfastcache/phpfastcache": ">=5,<5.0.13",
-                "phpmailer/phpmailer": "<6.1.6",
-                "phpmussel/phpmussel": ">=1,<1.6",
-                "phpmyadmin/phpmyadmin": "<4.9.6|>=5,<5.0.3",
-                "phpoffice/phpexcel": "<1.8.2",
-                "phpoffice/phpspreadsheet": "<1.16",
+              "passbolt/passbolt_api": "<2.11",
+              "paypal/merchant-sdk-php": "<3.12",
+              "pear/archive_tar": "<1.4.12",
+              "personnummer/personnummer": "<3.0.2",
+              "phpfastcache/phpfastcache": ">=5,<5.0.13",
+              "phpmailer/phpmailer": "<6.1.6",
+              "phpmussel/phpmussel": ">=1,<1.6",
+              "phpmyadmin/phpmyadmin": "<4.9.6|>=5,<5.0.3",
+              "phpoffice/phpexcel": "<1.8.2",
+              "phpoffice/phpspreadsheet": "<1.16",
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
-                "pimcore/pimcore": "<6.3",
-                "pocketmine/pocketmine-mp": "<3.15.4",
-                "prestashop/autoupgrade": ">=4,<4.10.1",
-                "prestashop/contactform": ">1.0.1,<4.3",
-                "prestashop/gamification": "<2.3.2",
-                "prestashop/productcomments": ">=4,<4.2.1",
-                "prestashop/ps_facetedsearch": "<3.4.1",
-                "privatebin/privatebin": "<1.2.2|>=1.3,<1.3.2",
-                "propel/propel": ">=2-alpha.1,<=2-alpha.7",
-                "propel/propel1": ">=1,<=1.7.1",
+              "pimcore/pimcore": "<6.3",
+              "pocketmine/pocketmine-mp": "<3.15.4",
+              "prestashop/autoupgrade": ">=4,<4.10.1",
+              "prestashop/contactform": ">1.0.1,<4.3",
+              "prestashop/gamification": "<2.3.2",
+              "prestashop/productcomments": ">=4,<4.2.1",
+              "prestashop/ps_facetedsearch": "<3.4.1",
+              "privatebin/privatebin": "<1.2.2|>=1.3,<1.3.2",
+              "propel/propel": ">=2-alpha.1,<=2-alpha.7",
+              "propel/propel1": ">=1,<=1.7.1",
               "pterodactyl/panel": "<0.7.19|>=1-rc.0,<=1-rc.6",
               "pusher/pusher-php-server": "<2.2.1",
               "rainlab/debugbar-plugin": "<3.1",
@@ -6477,16 +7644,16 @@
               "silverstripe/graphql": ">=2,<2.0.5|>=3,<3.1.2|>=3.2,<3.2.4",
               "silverstripe/registry": ">=2.1,<2.1.2|>=2.2,<2.2.1",
               "silverstripe/restfulserver": ">=1,<1.0.9|>=2,<2.0.4",
-                "silverstripe/subsites": ">=2,<2.1.1",
-                "silverstripe/taxonomy": ">=1.3,<1.3.1|>=2,<2.0.1",
-                "silverstripe/userforms": "<3",
-                "simple-updates/phpwhois": "<=1",
-                "simplesamlphp/saml2": "<1.10.6|>=2,<2.3.8|>=3,<3.1.4",
-                "simplesamlphp/simplesamlphp": "<1.18.6",
-                "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
-                "simplito/elliptic-php": "<1.0.6",
-                "slim/slim": "<2.6",
-                "smarty/smarty": "<3.1.33",
+              "silverstripe/subsites": ">=2,<2.1.1",
+              "silverstripe/taxonomy": ">=1.3,<1.3.1|>=2,<2.0.1",
+              "silverstripe/userforms": "<3",
+              "simple-updates/phpwhois": "<=1",
+              "simplesamlphp/saml2": "<1.10.6|>=2,<2.3.8|>=3,<3.1.4",
+              "simplesamlphp/simplesamlphp": "<1.18.6",
+              "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
+              "simplito/elliptic-php": "<1.0.6",
+              "slim/slim": "<2.6",
+              "smarty/smarty": "<3.1.33",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "socialiteproviders/steam": "<1.1",
                 "spoonity/tcpdf": "<6.2.22",
@@ -7748,14 +8915,14 @@
                     "role": "Developer"
                 }
             ],
-            "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
-            "funding": [
-                {
-                    "url": "https://github.com/theseer",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-07-12T23:59:07+00:00"
+          "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
+          "funding": [
+            {
+              "url": "https://github.com/theseer",
+              "type": "github"
+            }
+          ],
+          "time": "2020-07-12T23:59:07+00:00"
         },
       {
         "name": "typo3/testing-framework",
@@ -7771,16 +8938,16 @@
           "reference": "a611f9df98b14261087bf400a8baa33aeb411daf",
           "shasum": ""
         },
-            "require": {
-                "mikey179/vfsstream": "~1.6.8",
-                "phpunit/phpunit": "^8.4 || ^9.0",
-                "psr/container": "^1.0",
-                "typo3/cms-backend": "10.*.*@dev || 11.*.*@dev",
-                "typo3/cms-core": "10.*.*@dev || 11.*.*@dev",
-                "typo3/cms-extbase": "10.*.*@dev || 11.*.*@dev",
-                "typo3/cms-fluid": "10.*.*@dev || 11.*.*@dev",
-                "typo3/cms-frontend": "10.*.*@dev || 11.*.*@dev",
-                "typo3/cms-recordlist": "10.*.*@dev || 11.*.*@dev",
+        "require": {
+          "mikey179/vfsstream": "~1.6.8",
+          "phpunit/phpunit": "^8.4 || ^9.0",
+          "psr/container": "^1.0",
+          "typo3/cms-backend": "10.*.*@dev || 11.*.*@dev",
+          "typo3/cms-core": "10.*.*@dev || 11.*.*@dev",
+          "typo3/cms-extbase": "10.*.*@dev || 11.*.*@dev",
+          "typo3/cms-fluid": "10.*.*@dev || 11.*.*@dev",
+          "typo3/cms-frontend": "10.*.*@dev || 11.*.*@dev",
+          "typo3/cms-recordlist": "10.*.*@dev || 11.*.*@dev",
                 "typo3fluid/fluid": "^2.5|^3"
             },
             "suggest": {
