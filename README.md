@@ -1,8 +1,11 @@
 # rlwebshop
 
-> requires extcode/cart extension
+> requires aimeos/aimeos-typo3 extension
 
-This is my extension for setting up my webshop solution based on the cart shop extension.
+If installed with composer you have to downgrade to the Version 1. There is an issue with the
+typo3/cms-composer-installers.
+
+This is my extension for setting up my webshop solution based on the aimeos shop extension.
 
 ## Installation
 
