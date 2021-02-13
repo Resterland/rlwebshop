@@ -5,7 +5,7 @@
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'ResterLand WebShop',
-    'description' => 'his extension extends the cat webshop extension.',
+    'description' => 'his extension extends the aimeos webshop extension.',
     'category' => 'plugin',
     'constraints' => [
         'depends' => [
