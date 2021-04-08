@@ -79,7 +79,8 @@
     "extra": {
         "typo3/cms": {
             "root-dir": "private",
-            "web-dir": "public"
+            "web-dir": "public",
+            "extension-key": "rlwebshop"
         }
     }
 }
